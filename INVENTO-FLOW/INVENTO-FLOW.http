@@ -1,0 +1,6 @@
+@INVENTO_FLOW_HostAddress = http://localhost:5105
+
+GET {{INVENTO_FLOW_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

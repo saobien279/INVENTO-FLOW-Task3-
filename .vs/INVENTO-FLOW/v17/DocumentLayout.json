@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F0C8D2-9C3D-453A-A6C9-3EC3BCD9A54B}|INVENTO-FLOW\\INVENTO-FLOW.csproj|c:\\users\\sao bien\\source\\repos\\invento-flow\\invento-flow\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F0C8D2-9C3D-453A-A6C9-3EC3BCD9A54B}|INVENTO-FLOW\\INVENTO-FLOW.csproj|solutionrelative:invento-flow\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F0C8D2-9C3D-453A-A6C9-3EC3BCD9A54B}|INVENTO-FLOW\\INVENTO-FLOW.csproj|c:\\users\\sao bien\\source\\repos\\invento-flow\\invento-flow\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F0C8D2-9C3D-453A-A6C9-3EC3BCD9A54B}|INVENTO-FLOW\\INVENTO-FLOW.csproj|solutionrelative:invento-flow\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F0C8D2-9C3D-453A-A6C9-3EC3BCD9A54B}|INVENTO-FLOW\\INVENTO-FLOW.csproj|c:\\users\\sao bien\\source\\repos\\invento-flow\\invento-flow\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F0C8D2-9C3D-453A-A6C9-3EC3BCD9A54B}|INVENTO-FLOW\\INVENTO-FLOW.csproj|solutionrelative:invento-flow\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F0C8D2-9C3D-453A-A6C9-3EC3BCD9A54B}|INVENTO-FLOW\\INVENTO-FLOW.csproj|c:\\users\\sao bien\\source\\repos\\invento-flow\\invento-flow\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F0C8D2-9C3D-453A-A6C9-3EC3BCD9A54B}|INVENTO-FLOW\\INVENTO-FLOW.csproj|solutionrelative:invento-flow\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F0C8D2-9C3D-453A-A6C9-3EC3BCD9A54B}|INVENTO-FLOW\\INVENTO-FLOW.csproj|c:\\users\\sao bien\\source\\repos\\invento-flow\\invento-flow\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F0C8D2-9C3D-453A-A6C9-3EC3BCD9A54B}|INVENTO-FLOW\\INVENTO-FLOW.csproj|solutionrelative:invento-flow\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Models\\User.cs",
+              "RelativeDocumentMoniker": "INVENTO-FLOW\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Models\\User.cs",
+              "RelativeToolTip": "INVENTO-FLOW\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T08:45:43.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "INVENTO-FLOW\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Models\\OrderItem.cs",
+              "RelativeToolTip": "INVENTO-FLOW\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T08:43:17.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "INVENTO-FLOW\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Models\\Order.cs",
+              "RelativeToolTip": "INVENTO-FLOW\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T08:42:31.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "INVENTO-FLOW\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Models\\Product.cs",
+              "RelativeToolTip": "INVENTO-FLOW\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T08:41:41.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "INVENTO-FLOW\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "INVENTO-FLOW\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T08:39:55.929Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
