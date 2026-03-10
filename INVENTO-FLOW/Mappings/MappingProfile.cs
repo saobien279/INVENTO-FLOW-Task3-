@@ -1,0 +1,19 @@
+﻿using AutoMapper;
+using INVENTO_FLOW.DTOs.Product; // Đảm bảo đúng namespace của DTOs bạn đã tạo
+using INVENTO_FLOW.Models;
+
+namespace INVENTO_FLOW.Mappings
+{
+    public class MappingProfile : Profile
+    {
+        public MappingProfile()
+        {
+            // 1. Ánh xạ từ DTO gửi lên sang Model (Dùng cho Create/Update)
+            CreateMap<ProductCreateDto, Product>();
+            CreateMap<ProductUpdateDto, Product>();
+
+            // 2. Ánh xạ từ Model sang DTO để trả về kết quả cho Client
+            CreateMap<Product, ProductResponseDto>();
+        }
+    }
+}
