@@ -48,9 +48,9 @@ namespace INVENTO_FLOW.Controllers
 
         // 4. Cập nhật thông tin sản phẩm
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, ProductUpdateDto dto)
+        public async Task<IActionResult> UpdateProduct(ProductUpdateDto dto)
         {
-            var success = await _productService.UpdateProductAsync(id, dto);
+            var success = await _productService.UpdateProductAsync(dto.Id, dto);
             if (!success)
             {
                 return NotFound(new { message = "Cập nhật thất bại. Sản phẩm không tồn tại." });
