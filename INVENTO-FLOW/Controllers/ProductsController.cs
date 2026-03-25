@@ -1,9 +1,26 @@
-﻿using INVENTO_FLOW.DTOs.Product;
+using INVENTO_FLOW.DTOs.Product;
 using INVENTO_FLOW.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace INVENTO_FLOW.Controllers
 {
+    // Pseudocode plan:
+    // 1. Check for possible issues in the controller code.
+    // 2. Validate route and method signatures match REST conventions and DTO usage.
+    // 3. Ensure model binding is correct for PUT/POST methods (use [FromBody] where needed).
+    // 4. Check for missing or incorrect attributes.
+    // 5. Ensure correct usage of CreatedAtAction and NotFound responses.
+    // 6. Check for possible null reference or validation issues.
+
+    // Issues found and fixes:
+    // - The UpdateProduct method should accept the id from the route and the DTO from the body, not just the DTO (to match REST conventions and avoid mismatches).
+    // - Add [FromBody] to POST and PUT methods for clarity and to ensure correct model binding.
+    // - The UpdateProduct method should have the signature: public async Task<IActionResult> UpdateProduct(int id, [FromBody] ProductUpdateDto dto)
+    // - In UpdateProduct, ensure the id from the route matches dto.Id, or set dto.Id = id for consistency.
+
+    // Fixed controller code:
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class ProductsController : ControllerBase
@@ -37,25 +54,26 @@ namespace INVENTO_FLOW.Controllers
 
         // 3. Thêm mới sản phẩm (Nhập kho)
         [HttpPost]
-        public async Task<ActionResult<ProductResponseDto>> Create(ProductCreateDto dto)
+        public async Task<ActionResult<ProductResponseDto>> Create([FromBody] ProductCreateDto dto)
         {
-            // ASP.NET Core sẽ tự động validate dựa trên các [Attribute] Sen đặt ở DTO
             var result = await _productService.CreateProductAsync(dto);
-
-            // Trả về 201 Created cùng link dẫn đến sản phẩm vừa tạo
             return CreatedAtAction(nameof(GetById), new { id = result.Id }, result);
         }
 
         // 4. Cập nhật thông tin sản phẩm
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateProduct(ProductUpdateDto dto)
+        public async Task<IActionResult> UpdateProduct(int id, [FromBody] ProductUpdateDto dto)
         {
-            var success = await _productService.UpdateProductAsync(dto.Id, dto);
+            if (id != dto.Id)
+            {
+                return BadRequest(new { message = "Id trên route và Id trong dữ liệu không khớp." });
+            }
+            var success = await _productService.UpdateProductAsync(id, dto);
             if (!success)
             {
                 return NotFound(new { message = "Cập nhật thất bại. Sản phẩm không tồn tại." });
             }
-            return NoContent(); // Trả về 204 nếu thành công
+            return NoContent();
         }
 
         // 5. Xóa sản phẩm

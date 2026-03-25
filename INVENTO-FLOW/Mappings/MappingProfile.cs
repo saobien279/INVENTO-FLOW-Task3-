@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using INVENTO_FLOW.DTOs.Order;
 using INVENTO_FLOW.DTOs.Product; // Đảm bảo đúng namespace của DTOs bạn đã tạo
 using INVENTO_FLOW.Models;
 
@@ -14,6 +15,15 @@ namespace INVENTO_FLOW.Mappings
 
             // 2. Ánh xạ từ Model sang DTO để trả về kết quả cho Client
             CreateMap<Product, ProductResponseDto>();
+
+            // Mapping từ Model Order sang DTO để trả về kết quả
+            CreateMap<Order, OrderResponseDto>()
+                .ForMember(dest => dest.Items, opt => opt.MapFrom(src => src.OrderItems));
+
+            // Mapping từ Model OrderItem sang DTO
+            // .ForMember giúp lấy Name từ object Product lồng bên trong
+            CreateMap<OrderItem, OrderItemResponseDto>()
+                .ForMember(dest => dest.ProductName, opt => opt.MapFrom(src => src.Product!.Name));
         }
     }
 }
