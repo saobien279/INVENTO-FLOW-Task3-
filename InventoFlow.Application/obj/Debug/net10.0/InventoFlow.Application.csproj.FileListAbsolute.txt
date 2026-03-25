@@ -1,0 +1,6 @@
+C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Application\obj\Debug\net10.0\InventoFlow.Application.csproj.AssemblyReference.cache
+C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Application\obj\Debug\net10.0\InventoFlow.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Application\obj\Debug\net10.0\InventoFlow.Application.AssemblyInfoInputs.cache
+C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Application\obj\Debug\net10.0\InventoFlow.Application.AssemblyInfo.cs
+C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Application\obj\Debug\net10.0\InventoFlow.Application.csproj.CoreCompileInputs.cache
+C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Application\obj\Debug\net10.0\InventoFlow.Application.sourcelink.json

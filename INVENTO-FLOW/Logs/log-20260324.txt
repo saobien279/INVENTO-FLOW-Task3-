@@ -1,0 +1,28 @@
+2026-03-24 14:43:47.784 +07:00 [INF] User profile is available. Using 'C:\Users\SAO BIEN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-24 14:43:48.006 +07:00 [INF] Now listening on: http://localhost:5105
+2026-03-24 14:43:48.009 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-24 14:43:48.010 +07:00 [INF] Hosting environment: Development
+2026-03-24 14:43:48.011 +07:00 [INF] Content root path: C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\INVENTO-FLOW
+2026-03-24 14:44:00.626 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/ - null null
+2026-03-24 14:44:00.703 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-03-24 14:44:00.785 +07:00 [WRN] 🔴 [THẤT BẠI] HTTP GET / -> Phản hồi 404 (Thời gian xử lý: 126ms)
+2026-03-24 14:44:00.792 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/ - 404 0 null 168.3461ms
+2026-03-24 14:44:00.797 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5105/, Response status code: 404
+2026-03-24 14:44:05.067 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/index.html - null null
+2026-03-24 14:44:05.143 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/index.html -> Phản hồi 200 (Thời gian xử lý: 74ms)
+2026-03-24 14:44:05.145 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/index.html - 200 null text/html;charset=utf-8 78.1269ms
+2026-03-24 14:44:05.186 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/swagger-ui.css - null null
+2026-03-24 14:44:05.188 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/swagger-ui-standalone-preset.js - null null
+2026-03-24 14:44:05.188 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/swagger-ui-bundle.js - null null
+2026-03-24 14:44:05.221 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-03-24 14:44:05.221 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-03-24 14:44:05.225 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/swagger-ui.css -> Phản hồi 200 (Thời gian xử lý: 36ms)
+2026-03-24 14:44:05.225 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/swagger-ui-standalone-preset.js -> Phản hồi 200 (Thời gian xử lý: 34ms)
+2026-03-24 14:44:05.227 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/swagger-ui.css - 200 152034 text/css 40.7175ms
+2026-03-24 14:44:05.227 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 39.3319ms
+2026-03-24 14:44:05.242 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-03-24 14:44:05.243 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/swagger-ui-bundle.js -> Phản hồi 200 (Thời gian xử lý: 50ms)
+2026-03-24 14:44:05.245 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 56.8619ms
+2026-03-24 14:44:05.384 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - null null
+2026-03-24 14:44:05.492 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/v1/swagger.json -> Phản hồi 200 (Thời gian xử lý: 106ms)
+2026-03-24 14:44:05.493 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 109.5341ms

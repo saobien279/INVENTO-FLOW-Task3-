@@ -1,0 +1,16 @@
+C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Application\obj\Debug\net8.0\InventoFlow.Application.csproj.AssemblyReference.cache
+C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Application\obj\Debug\net8.0\InventoFlow.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Application\obj\Debug\net8.0\InventoFlow.Application.AssemblyInfoInputs.cache
+C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Application\obj\Debug\net8.0\InventoFlow.Application.AssemblyInfo.cs
+C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Application\obj\Debug\net8.0\InventoFlow.Application.csproj.CoreCompileInputs.cache
+C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Application\obj\Debug\net8.0\InventoFlow.Application.sourcelink.json
+C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Application\bin\Debug\net8.0\InventoFlow.Application.deps.json
+C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Application\bin\Debug\net8.0\InventoFlow.Application.dll
+C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Application\bin\Debug\net8.0\InventoFlow.Application.pdb
+C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Application\bin\Debug\net8.0\InventoFlow.Domain.dll
+C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Application\bin\Debug\net8.0\InventoFlow.Domain.pdb
+C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Application\obj\Debug\net8.0\InventoF.20DADBFE.Up2Date
+C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Application\obj\Debug\net8.0\InventoFlow.Application.dll
+C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Application\obj\Debug\net8.0\refint\InventoFlow.Application.dll
+C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Application\obj\Debug\net8.0\InventoFlow.Application.pdb
+C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Application\obj\Debug\net8.0\ref\InventoFlow.Application.dll

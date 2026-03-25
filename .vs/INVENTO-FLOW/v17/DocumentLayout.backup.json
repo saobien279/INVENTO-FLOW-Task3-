@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/InventoFlowDb/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F4F0C8D2-9C3D-453A-A6C9-3EC3BCD9A54B}|INVENTO-FLOW\\INVENTO-FLOW.csproj|c:\\users\\sao bien\\source\\repos\\invento-flow\\invento-flow\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4F0C8D2-9C3D-453A-A6C9-3EC3BCD9A54B}|INVENTO-FLOW\\INVENTO-FLOW.csproj|solutionrelative:invento-flow\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +16,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F4F0C8D2-9C3D-453A-A6C9-3EC3BCD9A54B}|INVENTO-FLOW\\INVENTO-FLOW.csproj|c:\\users\\sao bien\\source\\repos\\invento-flow\\invento-flow\\dtos\\order\\ordercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4F0C8D2-9C3D-453A-A6C9-3EC3BCD9A54B}|INVENTO-FLOW\\INVENTO-FLOW.csproj|solutionrelative:invento-flow\\dtos\\order\\ordercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4F0C8D2-9C3D-453A-A6C9-3EC3BCD9A54B}|INVENTO-FLOW\\INVENTO-FLOW.csproj|c:\\users\\sao bien\\source\\repos\\invento-flow\\invento-flow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4F0C8D2-9C3D-453A-A6C9-3EC3BCD9A54B}|INVENTO-FLOW\\INVENTO-FLOW.csproj|solutionrelative:invento-flow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4F0C8D2-9C3D-453A-A6C9-3EC3BCD9A54B}|INVENTO-FLOW\\INVENTO-FLOW.csproj|c:\\users\\sao bien\\source\\repos\\invento-flow\\invento-flow\\dtos\\order\\orderitemcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -127,12 +126,22 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "dbo.Users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/InventoFlowDb/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "dbo.Users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-03-20T13:13:25.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "OrdersController.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\Controllers\\OrdersController.cs",
               "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Controllers\\OrdersController.cs",
               "RelativeToolTip": "INVENTO-FLOW\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-18T08:59:34.61Z",
               "EditorCaption": ""
@@ -175,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "OrderCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\DTOs\\Order\\OrderCreateDto.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\DTOs\\Order\\OrderCreateDto.cs",
@@ -187,19 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Program.cs",
-              "RelativeDocumentMoniker": "INVENTO-FLOW\\Program.cs",
-              "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Program.cs",
-              "RelativeToolTip": "INVENTO-FLOW\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T08:06:47.343Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "OrderService.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Services\\OrderService.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\Services\\OrderService.cs",

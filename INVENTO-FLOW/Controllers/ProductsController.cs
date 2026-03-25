@@ -1,5 +1,5 @@
-using INVENTO_FLOW.DTOs.Product;
-using INVENTO_FLOW.Services.Interfaces;
+using InventoFlow.Application.DTOs.Product;
+using InventoFlow.Application.Interfaces.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -52,7 +52,8 @@ namespace INVENTO_FLOW.Controllers
             return Ok(product);
         }
 
-        // 3. Thêm mới sản phẩm (Nhập kho)
+        // 3. Thêm mới sản phẩm (Nhập kho) - [TRẠM 5] Chỉ tài khoản Admin mới được Thêm
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<ActionResult<ProductResponseDto>> Create([FromBody] ProductCreateDto dto)
         {
@@ -60,7 +61,8 @@ namespace INVENTO_FLOW.Controllers
             return CreatedAtAction(nameof(GetById), new { id = result.Id }, result);
         }
 
-        // 4. Cập nhật thông tin sản phẩm
+        // 4. Cập nhật thông tin sản phẩm - [TRẠM 5] Khách hàng không được quyền Sửa giá
+        [Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateProduct(int id, [FromBody] ProductUpdateDto dto)
         {
@@ -76,7 +78,8 @@ namespace INVENTO_FLOW.Controllers
             return NoContent();
         }
 
-        // 5. Xóa sản phẩm
+        // 5. Xóa sản phẩm - [TRẠM 5] Cấm tuyệt đối Users thường xóa sản phẩm
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

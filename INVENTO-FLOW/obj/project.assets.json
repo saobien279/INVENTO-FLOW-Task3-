@@ -1891,6 +1891,48 @@
             "rid": "win"
           }
         }
+      },
+      "InventoFlow.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "BCrypt.Net-Next": "4.1.0",
+          "FluentValidation.AspNetCore": "11.3.1",
+          "InventoFlow.Domain": "1.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "System.IdentityModel.Tokens.Jwt": "8.16.0"
+        },
+        "compile": {
+          "bin/placeholder/InventoFlow.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoFlow.Application.dll": {}
+        }
+      },
+      "InventoFlow.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/InventoFlow.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoFlow.Domain.dll": {}
+        }
+      },
+      "InventoFlow.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "InventoFlow.Application": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InventoFlow.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoFlow.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -5117,20 +5159,33 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "InventoFlow.Application/1.0.0": {
+      "type": "project",
+      "path": "../InventoFlow.Application/InventoFlow.Application.csproj",
+      "msbuildProject": "../InventoFlow.Application/InventoFlow.Application.csproj"
+    },
+    "InventoFlow.Domain/1.0.0": {
+      "type": "project",
+      "path": "../InventoFlow.Domain/InventoFlow.Domain.csproj",
+      "msbuildProject": "../InventoFlow.Domain/InventoFlow.Domain.csproj"
+    },
+    "InventoFlow.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../InventoFlow.Infrastructure/InventoFlow.Infrastructure.csproj",
+      "msbuildProject": "../InventoFlow.Infrastructure/InventoFlow.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
-      "BCrypt.Net-Next >= 4.1.0",
-      "FluentValidation.AspNetCore >= 11.3.1",
+      "InventoFlow.Application >= 1.0.0",
+      "InventoFlow.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.0",
       "Serilog.AspNetCore >= 10.0.0",
-      "Swashbuckle.AspNetCore >= 6.6.2",
-      "System.IdentityModel.Tokens.Jwt >= 8.16.0"
+      "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
   "packageFolders": {
@@ -5165,7 +5220,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\InventoFlow.Application\\InventoFlow.Application.csproj": {
+              "projectPath": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\InventoFlow.Application\\InventoFlow.Application.csproj"
+            },
+            "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\InventoFlow.Infrastructure\\InventoFlow.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\InventoFlow.Infrastructure\\InventoFlow.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5184,18 +5246,6 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-            "target": "Package",
-            "version": "[12.0.1, )"
-          },
-          "BCrypt.Net-Next": {
-            "target": "Package",
-            "version": "[4.1.0, )"
-          },
-          "FluentValidation.AspNetCore": {
-            "target": "Package",
-            "version": "[11.3.1, )"
-          },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
             "version": "[8.0.0, )"
@@ -5223,10 +5273,6 @@
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.6.2, )"
-          },
-          "System.IdentityModel.Tokens.Jwt": {
-            "target": "Package",
-            "version": "[8.16.0, )"
           }
         },
         "imports": [

@@ -1,5 +1,5 @@
-using INVENTO_FLOW.DTOs.User;
-using INVENTO_FLOW.Services.Interfaces;
+using InventoFlow.Application.DTOs.User;
+using InventoFlow.Application.Interfaces.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 

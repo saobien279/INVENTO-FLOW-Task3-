@@ -1,5 +1,5 @@
-using INVENTO_FLOW.DTOs.Order;
-using INVENTO_FLOW.Services.Interfaces;
+using InventoFlow.Application.DTOs.Order;
+using InventoFlow.Application.Interfaces.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,7 +17,16 @@ namespace INVENTO_FLOW.Controllers
             _orderService = orderService;
         }
 
-        // 1. Tạo đơn hàng mới (Đặt hàng)
+        // 1. Lấy tất cả đơn hàng (Chỉ Admin mới thấy được toàn bộ)
+        [Authorize(Roles = "Admin")]
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<OrderResponseDto>>> GetAll()
+        {
+            var orders = await _orderService.GetAllOrdersAsync();
+            return Ok(orders);
+        }
+
+        // 2. Tạo đơn hàng mới (Đặt hàng)
         [HttpPost]
         public async Task<ActionResult<OrderResponseDto>> Create([FromBody] OrderCreateDto dto)
         {
