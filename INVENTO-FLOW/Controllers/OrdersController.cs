@@ -17,13 +17,13 @@ namespace INVENTO_FLOW.Controllers
             _orderService = orderService;
         }
 
-        // 1. Lấy tất cả đơn hàng (Chỉ Admin mới thấy được toàn bộ)
+        // 1. Lấy tất cả đơn hàng (Chỉ Admin, có phân trang + filter)
         [Authorize(Roles = "Admin")]
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<OrderResponseDto>>> GetAll()
+        public async Task<IActionResult> GetAll([FromQuery] OrderQueryParams query)
         {
-            var orders = await _orderService.GetAllOrdersAsync();
-            return Ok(orders);
+            var result = await _orderService.GetAllOrdersAsync(query);
+            return Ok(result);
         }
 
         // 2. Tạo đơn hàng mới (Đặt hàng)

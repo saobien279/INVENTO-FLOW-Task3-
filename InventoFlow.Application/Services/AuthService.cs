@@ -12,19 +12,19 @@ namespace InventoFlow.Application.Services
 {
     public class AuthService : IAuthService
     {
-        private readonly IUserRepository _userRepo;
+        private readonly IUnitOfWork _unitOfWork;
         private readonly IConfiguration _config;
 
-        public AuthService(IUserRepository userRepo, IConfiguration config)
+        public AuthService(IUnitOfWork unitOfWork, IConfiguration config)
         {
-            _userRepo = userRepo;
+            _unitOfWork = unitOfWork;
             _config = config;
         }
 
         public async Task<bool> RegisterAsync(UserRegisterDto dto)
         {
             //Khong trung username
-            if (await _userRepo.AnyUsernameAsync(dto.Username))
+            if (await _unitOfWork.Users.AnyUsernameAsync(dto.Username))
                 return false;
 
             var user = new User
@@ -35,13 +35,13 @@ namespace InventoFlow.Application.Services
                 PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password)
             };
 
-            await _userRepo.AddAsync(user);
-            return await _userRepo.SaveChangesAsync() > 0;
+            await _unitOfWork.Users.AddAsync(user);
+            return await _unitOfWork.CompleteAsync() > 0;
         }
 
         public async Task<string?> LoginAsync(UserLoginDto dto)
         {
-            var user = await _userRepo.GetByUsernameAsync(dto.Username);
+            var user = await _unitOfWork.Users.GetByUsernameAsync(dto.Username);
 
             // Kiểm tra User tồn tại và Verify mật khẩu đã hash
             if (user == null || !BCrypt.Net.BCrypt.Verify(dto.Password, user.PasswordHash))

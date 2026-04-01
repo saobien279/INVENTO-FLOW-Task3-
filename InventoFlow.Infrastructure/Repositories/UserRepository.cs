@@ -28,10 +28,5 @@ namespace InventoFlow.Infrastructure.Repositories
         {
             return await _context.Users.FirstOrDefaultAsync(u => u.Username == username);
         }
-
-        public async Task<int> SaveChangesAsync()
-        {
-            return await _context.SaveChangesAsync();
-        }
     }
 }

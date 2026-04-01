@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("INVENTO-FLOW")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d40cc8377e43a781430b43cbe7ea501a2b48e245")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ec01b2fc0b47c759ddef5cbf48cd28aa26c9c33")]
 [assembly: System.Reflection.AssemblyProductAttribute("INVENTO-FLOW")]
 [assembly: System.Reflection.AssemblyTitleAttribute("INVENTO-FLOW")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

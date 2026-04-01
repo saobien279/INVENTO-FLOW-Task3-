@@ -14,13 +14,47 @@ namespace InventoFlow.Infrastructure.Repositories
             _context = context;
         }
 
-        // 1. Lấy tất cả đơn hàng (kèm chi tiết OrderItems và Product)
-        public async Task<IEnumerable<Order>> GetAllAsync()
+        // 1. Lấy tất cả đơn hàng có hỗ trợ Filter / Sort / Paging
+        public async Task<(IEnumerable<Order> Items, int TotalCount)> GetAllAsync(OrderQueryParams query)
         {
-            return await _context.Orders
+            var collection = _context.Orders
                 .Include(o => o.OrderItems!)
                 .ThenInclude(oi => oi.Product)
+                .AsQueryable();
+
+            // 1. Filter theo UserId (nếu có)
+            if (query.UserId.HasValue)
+            {
+                collection = collection.Where(o => o.UserId == query.UserId.Value);
+            }
+
+            // 2. Sorting
+            if (!string.IsNullOrWhiteSpace(query.SortBy))
+            {
+                collection = query.SortBy.ToLower() switch
+                {
+                    "date_asc"    => collection.OrderBy(o => o.OrderDate),
+                    "date_desc"   => collection.OrderByDescending(o => o.OrderDate),
+                    "amount_asc"  => collection.OrderBy(o => o.TotalAmount),
+                    "amount_desc" => collection.OrderByDescending(o => o.TotalAmount),
+                    _             => collection.OrderByDescending(o => o.OrderDate) // Mặc định mới nhất trước
+                };
+            }
+            else
+            {
+                collection = collection.OrderByDescending(o => o.OrderDate);
+            }
+
+            // 3. Đếm tổng số trước khi phân trang
+            var totalCount = await collection.CountAsync();
+
+            // 4. Phân trang
+            var items = await collection
+                .Skip((query.PageNumber - 1) * query.PageSize)
+                .Take(query.PageSize)
                 .ToListAsync();
+
+            return (items, totalCount);
         }
 
         // 2. Lấy đơn hàng theo ID (không kèm chi tiết món hàng)
@@ -51,14 +85,7 @@ namespace InventoFlow.Infrastructure.Repositories
         // 5. Thêm đơn hàng mới
         public async Task AddAsync(Order order)
         {
-            // Khi thêm Order có chứa List<OrderItem>, EF sẽ tự động thêm vào cả 2 bảng
             await _context.Orders.AddAsync(order);
-        }
-
-        // 6. Lưu thay đổi xuống Database
-        public async Task<bool> SaveChangesAsync()
-        {
-            return await _context.SaveChangesAsync() > 0;
         }
     }
 }

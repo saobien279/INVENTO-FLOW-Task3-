@@ -3,11 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\agents.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:agents.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/InventoFlowDb/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/InventoFlowDb/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SAO BIEN\\AppData\\Local\\Temp\\gtgkiapz..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\agents.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:agents.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Migrations\\20260306082911_Up.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -116,6 +119,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Migrations\\20260306083517_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:INVENTO-FLOW\\Migrations\\20260306083517_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SAO BIEN\\AppData\\Local\\Temp\\gtgkiapz..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -130,6 +136,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "dbo.Users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/InventoFlowDb/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "dbo.Users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-03-26T02:32:38.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SQLQuery1.sql ",
+              "DocumentMoniker": "C:\\Users\\SAO BIEN\\AppData\\Local\\Temp\\gtgkiapz..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\gtgkiapz..sql",
+              "ToolTip": "SQLQuery1.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-03-26T02:32:13.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "agents.md",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\agents.md",
               "RelativeDocumentMoniker": "agents.md",
@@ -142,16 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "dbo.Users.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/InventoFlowDb/True/SqlTable/dbo.Users.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/InventoFlowDb/True/SqlTable/dbo.Users.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-03-20T13:13:25.924Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "OrdersController.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\Controllers\\OrdersController.cs",
@@ -159,215 +177,199 @@
               "RelativeToolTip": "INVENTO-FLOW\\Controllers\\OrdersController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T08:59:34.61Z"
+              "WhenOpened": "2026-03-18T08:59:34.61Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Services\\Interfaces\\IProductService.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\Services\\Interfaces\\IProductService.cs",
               "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Services\\Interfaces\\IProductService.cs",
               "RelativeToolTip": "INVENTO-FLOW\\Services\\Interfaces\\IProductService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA9wAkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-10T09:19:27.533Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "OrderItemResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\DTOs\\Order\\OrderItemResponseDto.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\DTOs\\Order\\OrderItemResponseDto.cs",
               "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\DTOs\\Order\\OrderItemResponseDto.cs",
               "RelativeToolTip": "INVENTO-FLOW\\DTOs\\Order\\OrderItemResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-18T07:48:13.579Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "OrderItemCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\DTOs\\Order\\OrderItemCreateDto.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\DTOs\\Order\\OrderItemCreateDto.cs",
               "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\DTOs\\Order\\OrderItemCreateDto.cs",
               "RelativeToolTip": "INVENTO-FLOW\\DTOs\\Order\\OrderItemCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-18T07:37:46.382Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "OrderCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\DTOs\\Order\\OrderCreateDto.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\DTOs\\Order\\OrderCreateDto.cs",
               "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\DTOs\\Order\\OrderCreateDto.cs",
               "RelativeToolTip": "INVENTO-FLOW\\DTOs\\Order\\OrderCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-18T07:42:22.31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "OrderService.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Services\\OrderService.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\Services\\OrderService.cs",
               "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Services\\OrderService.cs",
               "RelativeToolTip": "INVENTO-FLOW\\Services\\OrderService.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAowEsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-18T08:42:22.002Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Repositories\\OrderRepository.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\Repositories\\OrderRepository.cs",
               "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Repositories\\OrderRepository.cs",
               "RelativeToolTip": "INVENTO-FLOW\\Repositories\\OrderRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-18T08:12:52.084Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Models\\OrderItem.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\Models\\OrderItem.cs",
               "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Models\\OrderItem.cs",
               "RelativeToolTip": "INVENTO-FLOW\\Models\\OrderItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-02T08:43:17.286Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Models\\Product.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\Models\\Product.cs",
               "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Models\\Product.cs",
               "RelativeToolTip": "INVENTO-FLOW\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-02T08:41:41.273Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\Services\\ProductService.cs",
               "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Services\\ProductService.cs",
               "RelativeToolTip": "INVENTO-FLOW\\Services\\ProductService.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-10T09:20:08.283Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "OrderResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\DTOs\\Order\\OrderResponseDto.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\DTOs\\Order\\OrderResponseDto.cs",
               "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\DTOs\\Order\\OrderResponseDto.cs",
               "RelativeToolTip": "INVENTO-FLOW\\DTOs\\Order\\OrderResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-18T07:49:20.278Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Services\\Interfaces\\IOrderService.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\Services\\Interfaces\\IOrderService.cs",
               "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Services\\Interfaces\\IOrderService.cs",
               "RelativeToolTip": "INVENTO-FLOW\\Services\\Interfaces\\IOrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-18T08:40:48.364Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Models\\Order.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\Models\\Order.cs",
               "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Models\\Order.cs",
               "RelativeToolTip": "INVENTO-FLOW\\Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-02T08:42:31.766Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\Repositories\\ProductRepository.cs",
               "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Repositories\\ProductRepository.cs",
               "RelativeToolTip": "INVENTO-FLOW\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA1wAwAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-10T09:00:29.264Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ProductResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\DTOs\\Product\\ProductResponseDto.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\DTOs\\Product\\ProductResponseDto.cs",
               "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\DTOs\\Product\\ProductResponseDto.cs",
               "RelativeToolTip": "INVENTO-FLOW\\DTOs\\Product\\ProductResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-06T08:20:26.033Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Repositories\\Interfaces\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\Repositories\\Interfaces\\IOrderRepository.cs",
               "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Repositories\\Interfaces\\IOrderRepository.cs",
               "RelativeToolTip": "INVENTO-FLOW\\Repositories\\Interfaces\\IOrderRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-18T07:59:57.563Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ProductCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\DTOs\\Product\\ProductCreateDto.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\DTOs\\Product\\ProductCreateDto.cs",
               "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\DTOs\\Product\\ProductCreateDto.cs",
               "RelativeToolTip": "INVENTO-FLOW\\DTOs\\Product\\ProductCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-06T08:20:00.692Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Repositories\\Interfaces\\IProductRepository.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\Repositories\\Interfaces\\IProductRepository.cs",
               "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Repositories\\Interfaces\\IProductRepository.cs",
               "RelativeToolTip": "INVENTO-FLOW\\Repositories\\Interfaces\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-10T08:59:13.086Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\appsettings.json",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\appsettings.json",
@@ -375,23 +377,23 @@
               "RelativeToolTip": "INVENTO-FLOW\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-06T08:04:55.779Z"
+              "WhenOpened": "2026-03-06T08:04:55.779Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Models\\User.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\Models\\User.cs",
               "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Models\\User.cs",
               "RelativeToolTip": "INVENTO-FLOW\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-02T08:45:43.831Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\Controllers\\ProductsController.cs",
@@ -399,47 +401,45 @@
               "RelativeToolTip": "INVENTO-FLOW\\Controllers\\ProductsController.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAQwBUAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T09:25:31.564Z"
+              "WhenOpened": "2026-03-10T09:25:31.564Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "ProductUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\DTOs\\Product\\ProductUpdateDto.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\DTOs\\Product\\ProductUpdateDto.cs",
               "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\DTOs\\Product\\ProductUpdateDto.cs",
               "RelativeToolTip": "INVENTO-FLOW\\DTOs\\Product\\ProductUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-06T08:20:15.033Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Data\\AppDbContext.cs",
               "RelativeToolTip": "INVENTO-FLOW\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAcwAkAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-06T07:51:14.876Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Mappings\\MappingProfile.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\Mappings\\MappingProfile.cs",
               "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Mappings\\MappingProfile.cs",
               "RelativeToolTip": "INVENTO-FLOW\\Mappings\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-10T08:52:38.605Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "20260306082911_Up.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Migrations\\20260306082911_Up.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\Migrations\\20260306082911_Up.cs",
@@ -450,25 +450,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "20260306083517_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Migrations\\20260306083517_InitialCreate.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\Migrations\\20260306083517_InitialCreate.cs",
               "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Migrations\\20260306083517_InitialCreate.cs",
               "RelativeToolTip": "INVENTO-FLOW\\Migrations\\20260306083517_InitialCreate.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-06T08:35:18.115Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "20260306080906_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Migrations\\20260306080906_InitialCreate.cs",
               "RelativeDocumentMoniker": "INVENTO-FLOW\\Migrations\\20260306080906_InitialCreate.cs",
               "ToolTip": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\INVENTO-FLOW\\Migrations\\20260306080906_InitialCreate.cs",
               "RelativeToolTip": "INVENTO-FLOW\\Migrations\\20260306080906_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-06T08:09:07.016Z"
             }

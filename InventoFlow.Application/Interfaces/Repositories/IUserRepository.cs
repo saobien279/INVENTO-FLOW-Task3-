@@ -7,6 +7,5 @@ namespace InventoFlow.Application.Interfaces.Repositories
         Task<bool> AnyUsernameAsync(string username);
         Task<User?> GetByUsernameAsync(string username);
         Task AddAsync(User user);
-        Task<int> SaveChangesAsync();
     }
 }

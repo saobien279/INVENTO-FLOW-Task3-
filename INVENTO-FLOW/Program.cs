@@ -13,6 +13,9 @@ using Microsoft.OpenApi.Models; // Thư viện để cấu hình Swagger Securit
 using Microsoft.AspNetCore.RateLimiting; // Trạm 3: Thư viện Chống Spam gốc của .NET
 using System.Threading.RateLimiting;
 using Microsoft.AspNetCore.ResponseCompression; // Trạm 6: Thư viện ép nén dữ liệu
+using FluentValidation;
+using FluentValidation.AspNetCore;
+using InventoFlow.Application.Validators;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -34,6 +37,11 @@ builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddValidatorsFromAssemblyContaining<ProductCreateValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<OrderCreateValidator>();
 
 // Add services to the container.
 

@@ -34,12 +34,11 @@ namespace INVENTO_FLOW.Controllers
 
         // 1. Lấy danh sách tất cả sản phẩm
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<ProductResponseDto>>> GetAll()
+        public async Task<IActionResult> GetAll([FromQuery] ProductQueryParams query)
         {
-            var products = await _productService.GetAllProductsAsync();
-            return Ok(products);
+            var result = await _productService.GetAllProductsAsync(query);
+            return Ok(result);
         }
-
         // 2. Lấy thông tin chi tiết 1 sản phẩm theo Id
         [HttpGet("{id}")]
         public async Task<ActionResult<ProductResponseDto>> GetById(int id)

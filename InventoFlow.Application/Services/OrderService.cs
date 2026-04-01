@@ -1,5 +1,6 @@
-﻿using AutoMapper;
+using AutoMapper;
 using InventoFlow.Application.DTOs.Order;
+using InventoFlow.Application.PageQuery;
 using InventoFlow.Domain.Entities;
 using InventoFlow.Application.Interfaces.Repositories;
 using InventoFlow.Application.Interfaces.Services;
@@ -8,14 +9,12 @@ namespace InventoFlow.Application.Services
 {
     public class OrderService : IOrderService
     {
-        private readonly IOrderRepository _orderRepo;
-        private readonly IProductRepository _productRepo;
+        private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
 
-        public OrderService(IOrderRepository orderRepo, IProductRepository productRepo, IMapper mapper)
+        public OrderService(IUnitOfWork unitOfWork, IMapper mapper)
         {
-            _orderRepo = orderRepo;
-            _productRepo = productRepo;
+            _unitOfWork = unitOfWork;
             _mapper = mapper;
         }
 
@@ -34,7 +33,7 @@ namespace InventoFlow.Application.Services
             foreach (var itemDto in dto.Items)
             {
                 // Tìm sản phẩm trong Database
-                var product = await _productRepo.GetByIdAsync(itemDto.ProductId);
+                var product = await _unitOfWork.Products.GetByIdAsync(itemDto.ProductId);
 
                 if (product == null)
                 {
@@ -50,7 +49,7 @@ namespace InventoFlow.Application.Services
                 // 3. Xử lý logic nghiệp vụ
                 // Trừ số lượng tồn kho
                 product.StockQuantity -= itemDto.Quantity;
-                _productRepo.Update(product); // Cập nhật trạng thái sản phẩm
+                _unitOfWork.Products.Update(product);
 
                 // Tạo OrderItem và chốt giá mua
                 var orderItem = new OrderItem
@@ -68,29 +67,36 @@ namespace InventoFlow.Application.Services
             }
 
             // 4. Lưu đơn hàng và các thay đổi sản phẩm vào Database
-            await _orderRepo.AddAsync(order);
-            await _orderRepo.SaveChangesAsync();
+            await _unitOfWork.Orders.AddAsync(order);
+            await _unitOfWork.CompleteAsync();
 
             // 5. Trả về kết quả dưới dạng DTO
             return _mapper.Map<OrderResponseDto>(order);
         }
 
-        public async Task<IEnumerable<OrderResponseDto>> GetAllOrdersAsync()
+        public async Task<PagedResult<OrderResponseDto>> GetAllOrdersAsync(OrderQueryParams query)
         {
-            var orders = await _orderRepo.GetAllAsync();
-            return _mapper.Map<IEnumerable<OrderResponseDto>>(orders);
+            var (orders, totalCount) = await _unitOfWork.Orders.GetAllAsync(query);
+
+            return new PagedResult<OrderResponseDto>
+            {
+                Items = _mapper.Map<List<OrderResponseDto>>(orders),
+                TotalCount = totalCount,
+                PageNumber = query.PageNumber,
+                PageSize = query.PageSize
+            };
         }
 
         public async Task<OrderResponseDto?> GetOrderByIdAsync(int id)
         {
             // Sử dụng hàm có Include chi tiết để hiển thị đầy đủ thông tin
-            var order = await _orderRepo.GetOrderWithDetailsAsync(id);
+            var order = await _unitOfWork.Orders.GetOrderWithDetailsAsync(id);
             return _mapper.Map<OrderResponseDto>(order);
         }
 
         public async Task<IEnumerable<OrderResponseDto>> GetOrdersByUserIdAsync(int userId)
         {
-            var orders = await _orderRepo.GetByUserIdAsync(userId);
+            var orders = await _unitOfWork.Orders.GetByUserIdAsync(userId);
             return _mapper.Map<IEnumerable<OrderResponseDto>>(orders);
         }
     }

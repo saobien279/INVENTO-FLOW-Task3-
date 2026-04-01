@@ -1,13 +1,12 @@
-﻿using InventoFlow.Domain.Entities;
+using InventoFlow.Domain.Entities;
 
 namespace InventoFlow.Application.Interfaces.Repositories
 {
     public interface IOrderRepository
     {
-        // 1. Các hàm cơ bản bạn đã đoán
-        Task<IEnumerable<Order>> GetAllAsync();
+        // 1. Các hàm cơ bản
+        Task<(IEnumerable<Order> Items, int TotalCount)> GetAllAsync(OrderQueryParams query);
         Task AddAsync(Order order);
-        Task<bool> SaveChangesAsync();
 
         // 2. Các hàm bổ sung quan trọng
         Task<Order?> GetByIdAsync(int id);
