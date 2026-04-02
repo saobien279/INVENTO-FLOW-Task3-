@@ -1,7 +1,8 @@
-using InventoFlow.Application.DTOs.User;
-using InventoFlow.Application.Interfaces.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using MediatR;
+using InventoFlow.Application.Features.Auth.Commands.Register;
+using InventoFlow.Application.Features.Auth.Commands.Login;
 
 namespace INVENTO_FLOW.Controllers
 {
@@ -10,28 +11,34 @@ namespace INVENTO_FLOW.Controllers
     [Route("api/[controller]")]
     public class AuthController : ControllerBase
     {
-        private readonly IAuthService _authService;
+        private readonly IMediator _mediator;
 
-        public AuthController(IAuthService authService)
+        public AuthController(IMediator mediator)
         {
-            _authService = authService;
+            _mediator = mediator;
         }
 
+        // Đăng ký tài khoản mới (không cần xác thực)
         [AllowAnonymous]
         [HttpPost("register")]
-        public async Task<IActionResult> Register(UserRegisterDto dto)
+        public async Task<IActionResult> Register([FromBody] RegisterCommand command)
         {
-            var success = await _authService.RegisterAsync(dto);
-            if (!success) return BadRequest("Username đã tồn tại.");
-            return Ok("Đăng ký thành công.");
+            var success = await _mediator.Send(command);
+            if (!success)
+                return BadRequest(new { message = "Username đã tồn tại." });
+
+            return Ok(new { message = "Đăng ký thành công." });
         }
 
+        // Đăng nhập — trả về JWT token (không cần xác thực)
         [AllowAnonymous]
         [HttpPost("login")]
-        public async Task<IActionResult> Login(UserLoginDto dto)
+        public async Task<IActionResult> Login([FromBody] LoginCommand command)
         {
-            var token = await _authService.LoginAsync(dto);
-            if (token == null) return Unauthorized("Sai tài khoản hoặc mật khẩu.");
+            var token = await _mediator.Send(command);
+            if (token == null)
+                return Unauthorized(new { message = "Sai tài khoản hoặc mật khẩu." });
+
             return Ok(new { Token = token });
         }
     }

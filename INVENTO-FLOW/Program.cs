@@ -16,6 +16,7 @@ using Microsoft.AspNetCore.ResponseCompression; // Trạm 6: Thư viện ép né
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using InventoFlow.Application.Validators;
+using InventoFlow.Application.Features.Products.Queries.GetProductById;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -42,6 +43,7 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddFluentValidationAutoValidation();
 builder.Services.AddValidatorsFromAssemblyContaining<ProductCreateValidator>();
 builder.Services.AddValidatorsFromAssemblyContaining<OrderCreateValidator>();
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(GetProductByIdQuery).Assembly));
 
 // Add services to the container.
 

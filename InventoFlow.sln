@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoFlow.Infrastructure"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INVENTO-FLOW", "INVENTO-FLOW\INVENTO-FLOW.csproj", "{7BDA07F7-AF06-47E7-B4E0-A57865EC8A34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoFlow.UnitTests", "InventoFlow.UnitTests\InventoFlow.UnitTests.csproj", "{21A102BA-BE25-4BD5-BEBB-21D110FC5BDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,18 @@ Global
 		{7BDA07F7-AF06-47E7-B4E0-A57865EC8A34}.Release|x64.Build.0 = Release|Any CPU
 		{7BDA07F7-AF06-47E7-B4E0-A57865EC8A34}.Release|x86.ActiveCfg = Release|Any CPU
 		{7BDA07F7-AF06-47E7-B4E0-A57865EC8A34}.Release|x86.Build.0 = Release|Any CPU
+		{21A102BA-BE25-4BD5-BEBB-21D110FC5BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A102BA-BE25-4BD5-BEBB-21D110FC5BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A102BA-BE25-4BD5-BEBB-21D110FC5BDD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{21A102BA-BE25-4BD5-BEBB-21D110FC5BDD}.Debug|x64.Build.0 = Debug|Any CPU
+		{21A102BA-BE25-4BD5-BEBB-21D110FC5BDD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{21A102BA-BE25-4BD5-BEBB-21D110FC5BDD}.Debug|x86.Build.0 = Debug|Any CPU
+		{21A102BA-BE25-4BD5-BEBB-21D110FC5BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21A102BA-BE25-4BD5-BEBB-21D110FC5BDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21A102BA-BE25-4BD5-BEBB-21D110FC5BDD}.Release|x64.ActiveCfg = Release|Any CPU
+		{21A102BA-BE25-4BD5-BEBB-21D110FC5BDD}.Release|x64.Build.0 = Release|Any CPU
+		{21A102BA-BE25-4BD5-BEBB-21D110FC5BDD}.Release|x86.ActiveCfg = Release|Any CPU
+		{21A102BA-BE25-4BD5-BEBB-21D110FC5BDD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

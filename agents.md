@@ -300,3 +300,81 @@ UPDATE Users SET Role = 'Admin' WHERE Username = 'ten_tai_khoan';
 - Đăng ký qua `builder.Services.AddFluentValidationAutoValidation()` (tự động validate DTO khi Controller nhận request)
 - Validator nằm ở tầng **Application** (`InventoFlow.Application.Validators`)
 - Khi validation fail → API tự trả về `400 Bad Request` với danh sách lỗi
+
+---
+
+## 11. MediatR / CQRS Pattern (Kiến trúc Command/Query)
+
+### Tổng quan
+Toàn bộ Controller đã được **refactor sang MediatR**. Mỗi Controller chỉ inject **`IMediator`** duy nhất và gọi `_mediator.Send(command/query)`. Logic nghiệp vụ nằm hoàn toàn trong các Handler.
+
+### Nguyên tắc đặt tên
+- **Command**: Hành động thay đổi dữ liệu (Create, Update, Delete)
+- **Query**: Hành động đọc dữ liệu (GetAll, GetById, GetByUserId)
+- **Handler**: Lớp xử lý tương ứng với mỗi Command/Query
+
+### Cấu trúc thư mục Features
+```
+InventoFlow.Application/Features/
+├── Auth/
+│   └── Commands/
+│       ├── Login/
+│       │   ├── LoginCommand.cs         → IRequest<string?>
+│       │   └── LoginHandler.cs
+│       └── Register/
+│           ├── RegisterCommand.cs      → IRequest<bool>
+│           └── RegisterHandler.cs
+├── Products/
+│   ├── Commands/
+│   │   ├── CreateProduct/
+│   │   │   ├── CreateProductCommand.cs → IRequest<ProductResponseDto>
+│   │   │   └── CreateProductHandler.cs
+│   │   ├── UpdateProduct/
+│   │   │   ├── UpdateProductCommand.cs → IRequest<bool>
+│   │   │   └── UpdateProductHandler.cs
+│   │   └── DeleteProduct/
+│   │       ├── DeleteProductCommand.cs → IRequest<bool>
+│   │       └── DeleteProductHandler.cs
+│   └── Queries/
+│       ├── GetAllProducts/
+│       │   ├── GetAllProductsQuery.cs  → IRequest<PagedResult<ProductResponseDto>>
+│       │   └── GetAllProductsHandler.cs
+│       └── GetProductById/
+│           ├── GetProductByIdQuery.cs  → IRequest<ProductResponseDto>
+│           └── GetProductByIdHandler.cs
+└── Orders/
+    ├── Commands/
+    │   └── CreateOrder/
+    │       ├── CreateOrderCommand.cs   → IRequest<OrderResponseDto>
+    │       └── CreateOrderHandler.cs
+    └── Queries/
+        ├── GetAllOrders/
+        │   ├── GetAllOrdersQuery.cs    → IRequest<PagedResult<OrderResponseDto>>
+        │   └── GetAllOrdersHandler.cs
+        ├── GetOrderById/
+        │   ├── GetOrderByIdQuery.cs    → IRequest<OrderResponseDto?>
+        │   └── GetOrderByIdHandler.cs
+        └── GetOrdersByUserId/
+            ├── GetOrdersByUserIdQuery.cs → IRequest<IEnumerable<OrderResponseDto>>
+            └── GetOrdersByUserIdHandler.cs
+```
+
+### Đăng ký MediatR trong Program.cs
+```csharp
+// Quét toàn bộ Assembly của Application để đăng ký tất cả Handler tự động
+builder.Services.AddMediatR(cfg =>
+    cfg.RegisterServicesFromAssembly(typeof(GetProductByIdQuery).Assembly));
+```
+> ⚠️ Chỉ cần 1 dòng này, MediatR tự tìm và đăng ký tất cả Handler trong toàn bộ Assembly.
+
+### Controllers sau refactor
+| Controller | Inject | Thay đổi |
+|---|---|---|
+| `AuthController` | `IMediator` | Không còn `IAuthService` |
+| `ProductsController` | `IMediator` | Không còn `IProductService` |
+| `OrdersController` | `IMediator` | Không còn `IOrderService` |
+
+> ✅ `IProductService`, `IOrderService` vẫn được đăng ký trong DI (để `AuthHandler` tái sử dụng), nhưng Controller không còn phụ thuộc trực tiếp vào chúng.
+
+### Unit Test với Features/Handlers
+Unit test có thể test từng Handler riêng lẻ mà không cần Controller — đây là lợi thế lớn nhất của CQRS.

@@ -1,92 +1,79 @@
-using InventoFlow.Application.DTOs.Product;
-using InventoFlow.Application.Interfaces.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using MediatR;
+using InventoFlow.Application.Features.Products.Queries.GetAllProducts;
+using InventoFlow.Application.Features.Products.Queries.GetProductById;
+using InventoFlow.Application.Features.Products.Commands.CreateProduct;
+using InventoFlow.Application.Features.Products.Commands.UpdateProduct;
+using InventoFlow.Application.Features.Products.Commands.DeleteProduct;
+using InventoFlow.Application.PageQuery;
 
 namespace INVENTO_FLOW.Controllers
 {
-    // Pseudocode plan:
-    // 1. Check for possible issues in the controller code.
-    // 2. Validate route and method signatures match REST conventions and DTO usage.
-    // 3. Ensure model binding is correct for PUT/POST methods (use [FromBody] where needed).
-    // 4. Check for missing or incorrect attributes.
-    // 5. Ensure correct usage of CreatedAtAction and NotFound responses.
-    // 6. Check for possible null reference or validation issues.
-
-    // Issues found and fixes:
-    // - The UpdateProduct method should accept the id from the route and the DTO from the body, not just the DTO (to match REST conventions and avoid mismatches).
-    // - Add [FromBody] to POST and PUT methods for clarity and to ensure correct model binding.
-    // - The UpdateProduct method should have the signature: public async Task<IActionResult> UpdateProduct(int id, [FromBody] ProductUpdateDto dto)
-    // - In UpdateProduct, ensure the id from the route matches dto.Id, or set dto.Id = id for consistency.
-
-    // Fixed controller code:
     [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class ProductsController : ControllerBase
     {
-        private readonly IProductService _productService;
+        private readonly IMediator _mediator;
 
-        public ProductsController(IProductService productService)
+        // Constructor Injection: chỉ cần IMediator, không cần bất kỳ Service nào khác
+        public ProductsController(IMediator mediator)
         {
-            _productService = productService;
+            _mediator = mediator;
         }
 
-        // 1. Lấy danh sách tất cả sản phẩm
+        // 1. Lấy danh sách tất cả sản phẩm (có phân trang, tìm kiếm, sort)
         [HttpGet]
         public async Task<IActionResult> GetAll([FromQuery] ProductQueryParams query)
         {
-            var result = await _productService.GetAllProductsAsync(query);
+            var result = await _mediator.Send(new GetAllProductsQuery(query));
             return Ok(result);
         }
+
         // 2. Lấy thông tin chi tiết 1 sản phẩm theo Id
         [HttpGet("{id}")]
-        public async Task<ActionResult<ProductResponseDto>> GetById(int id)
+        public async Task<IActionResult> GetById(int id)
         {
-            var product = await _productService.GetProductByIdAsync(id);
-            if (product == null)
-            {
-                return NotFound(new { message = $"Không tìm thấy sản phẩm có Id {id}" });
-            }
-            return Ok(product);
+            var result = await _mediator.Send(new GetProductByIdQuery(id));
+            return Ok(result);
         }
 
-        // 3. Thêm mới sản phẩm (Nhập kho) - [TRẠM 5] Chỉ tài khoản Admin mới được Thêm
+        // 3. Thêm mới sản phẩm — Chỉ Admin
         [Authorize(Roles = "Admin")]
         [HttpPost]
-        public async Task<ActionResult<ProductResponseDto>> Create([FromBody] ProductCreateDto dto)
+        public async Task<IActionResult> Create([FromBody] CreateProductCommand command)
         {
-            var result = await _productService.CreateProductAsync(dto);
+            var result = await _mediator.Send(command);
+            // 201 Created + Header Location + toàn bộ dữ liệu sản phẩm mới
             return CreatedAtAction(nameof(GetById), new { id = result.Id }, result);
         }
 
-        // 4. Cập nhật thông tin sản phẩm - [TRẠM 5] Khách hàng không được quyền Sửa giá
+        // 4. Cập nhật sản phẩm — Chỉ Admin
         [Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateProduct(int id, [FromBody] ProductUpdateDto dto)
+        public async Task<IActionResult> Update(int id, [FromBody] UpdateProductCommand command)
         {
-            if (id != dto.Id)
-            {
-                return BadRequest(new { message = "Id trên route và Id trong dữ liệu không khớp." });
-            }
-            var success = await _productService.UpdateProductAsync(id, dto);
+            // Đảm bảo Id trong route khớp với Id trong body
+            if (id != command.Id)
+                return BadRequest(new { message = "Id trên route và Id trong body không khớp." });
+
+            var success = await _mediator.Send(command);
             if (!success)
-            {
                 return NotFound(new { message = "Cập nhật thất bại. Sản phẩm không tồn tại." });
-            }
+
             return NoContent();
         }
 
-        // 5. Xóa sản phẩm - [TRẠM 5] Cấm tuyệt đối Users thường xóa sản phẩm
+        // 5. Xóa sản phẩm — Chỉ Admin
         [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            var success = await _productService.DeleteProductAsync(id);
+            var success = await _mediator.Send(new DeleteProductCommand(id));
             if (!success)
-            {
                 return NotFound(new { message = "Xóa thất bại. Sản phẩm không tồn tại." });
-            }
+
             return NoContent();
         }
     }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InventoFlow.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ec01b2fc0b47c759ddef5cbf48cd28aa26c9c33")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22365986c44a01e27c4f6e306a1f74d043ac527d")]
 [assembly: System.Reflection.AssemblyProductAttribute("InventoFlow.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InventoFlow.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
