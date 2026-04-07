@@ -378,3 +378,37 @@ builder.Services.AddMediatR(cfg =>
 
 ### Unit Test với Features/Handlers
 Unit test có thể test từng Handler riêng lẻ mà không cần Controller — đây là lợi thế lớn nhất của CQRS.
+
+---
+
+## 12. Validation Pipeline (Trạm gác dữ liệu tự động)
+
+### Tổng quan
+Hệ thống sử dụng **FluentValidation** kết hợp với **MediatR Pipeline Behavior**. Mọi Request (Command/Query) trước khi đến được Handler đều phải đi qua "Trạm gác" `ValidationBehavior`.
+
+### Thành phần chính
+- **`ValidationBehavior<TRequest, TResponse>`**: Lớp trung gian (`IPipelineBehavior`) tự động quét và thực thi các luật validation. Nếu có lỗi, nó sẽ văng ra `ValidationException` ngay lập tức.
+- **`Validators`**: Chứa các quy tắc kiểm tra dữ liệu cho từng Command cụ thể (nằm ngay trong thư mục của Feature đó).
+
+### Danh sách Validator hiện có:
+- `RegisterCommandValidator`: Kiểm tra tài khoản (3+ ký tự), mật khẩu (6+ ký tự).
+- `LoginCommandValidator`: Chặn bỏ trống tài khoản/mật khẩu.
+- `CreateProductCommandValidator`: Tên không trống, giá > 0, SKU bắt buộc.
+- `UpdateProductCommandValidator`: Kiểm tra ID hợp lệ, giá và tồn kho không âm.
+- `CreateOrderCommandValidator`: Kiểm tra UserId, danh sách Items không rỗng, từng item có ID và số lượng > 0.
+
+---
+
+## 13. Cơ chế đăng ký tự động (Marker-based Registration)
+
+Để tránh việc phải đăng ký thủ công từng Validator trong `Program.cs`, dự án sử dụng class **`ApplicationAssemblyReference`** làm mốc định vị.
+
+### Đăng ký trong `Program.cs`:
+```csharp
+// Quét toàn bộ project Application để tìm Validators
+builder.Services.AddValidatorsFromAssembly(typeof(ApplicationAssemblyReference).Assembly);
+
+// Đăng ký Trạm gác Validation vào MediatR Pipeline
+builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+```
+> ✅ **Lưu ý**: Chỉ cần tạo file định nghĩa Rule, hệ thống sẽ tự động "nhặt" và dùng nó để bảo vệ API mà không cần sửa code đăng ký.

@@ -17,6 +17,9 @@ using FluentValidation;
 using FluentValidation.AspNetCore;
 using InventoFlow.Application.Validators;
 using InventoFlow.Application.Features.Products.Queries.GetProductById;
+using InventoFlow.Application;
+using InventoFlow.Application.Common.Behaviors;
+using MediatR;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -40,10 +43,11 @@ builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
+
 builder.Services.AddFluentValidationAutoValidation();
-builder.Services.AddValidatorsFromAssemblyContaining<ProductCreateValidator>();
-builder.Services.AddValidatorsFromAssemblyContaining<OrderCreateValidator>();
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(GetProductByIdQuery).Assembly));
+builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+builder.Services.AddValidatorsFromAssembly(typeof(ApplicationAssemblyReference).Assembly);
 
 // Add services to the container.
 
