@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invento-Flow Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header style="text-align: center; margin-bottom: 20px; padding-top: 20px;">
+        <h1>Invento-Flow Inventory</h1>
+    </header>
+
+    <main>
+        <section class="product-list">
+            <article class="product-card" data-id="101" data-name="Whey Protein Gold">
+                <div class="sale-badge">SALE 50%</div>
+                <img src="https://www.bigmusclesnutrition.com/cdn/shop/files/B084H8LWC3.MAIN_1524x.jpg?v=1727258888"
+                    alt="Whey Protein Gold">
+                <div class="product-info">
+                    <h2>Whey Protein Gold</h2>
+                    <p class="price">1.500.000đ</p>
+                    <p class="quantity">Kho Còn: <span class="stock-count">15</span></p>
+                    <button class="btn-add">Thêm vào đơn hàng</button>
+                </div>
+            </article>
+
+            <article class="product-card" data-id="102" data-name="Whey Protein Silver">
+                <div class="sale-badge">SALE 30%</div>
+                <img src="https://www.bigmusclesnutrition.com/cdn/shop/files/B084H8LWC3.MAIN_1524x.jpg?v=1727258888"
+                    alt="Whey Protein Silver">
+                <div class="product-info">
+                    <h2>Whey Protein Silver</h2>
+                    <p class="price">1.200.000đ</p>
+                    <p class="quantity">Kho Còn: <span class="stock-count">10</span></p>
+                    <button class="btn-add">Thêm vào đơn hàng</button>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <div id="toast-container"></div>
+    <script src="app.js"></script>
+</body>
+
+</html>
