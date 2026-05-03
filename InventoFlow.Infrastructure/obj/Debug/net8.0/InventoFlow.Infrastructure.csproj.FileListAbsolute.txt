@@ -18,3 +18,23 @@ C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Infrastructure\obj\Debug
 C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Infrastructure\obj\Debug\net8.0\InventoFlow.Infrastructure.pdb
 C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Infrastructure\obj\Debug\net8.0\InventoFlow.Infrastructure.genruntimeconfig.cache
 C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Infrastructure\obj\Debug\net8.0\ref\InventoFlow.Infrastructure.dll
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Infrastructure\bin\Debug\net8.0\InventoFlow.Infrastructure.deps.json
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Infrastructure\bin\Debug\net8.0\InventoFlow.Infrastructure.runtimeconfig.json
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Infrastructure\bin\Debug\net8.0\InventoFlow.Infrastructure.dll
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Infrastructure\bin\Debug\net8.0\InventoFlow.Infrastructure.pdb
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Infrastructure\bin\Debug\net8.0\InventoFlow.Application.dll
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Infrastructure\bin\Debug\net8.0\InventoFlow.Domain.dll
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Infrastructure\bin\Debug\net8.0\InventoFlow.Application.pdb
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Infrastructure\bin\Debug\net8.0\InventoFlow.Domain.pdb
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Infrastructure\obj\Debug\net8.0\InventoFlow.Infrastructure.csproj.AssemblyReference.cache
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Infrastructure\obj\Debug\net8.0\InventoFlow.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Infrastructure\obj\Debug\net8.0\InventoFlow.Infrastructure.AssemblyInfoInputs.cache
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Infrastructure\obj\Debug\net8.0\InventoFlow.Infrastructure.AssemblyInfo.cs
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Infrastructure\obj\Debug\net8.0\InventoFlow.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Infrastructure\obj\Debug\net8.0\InventoFlow.Infrastructure.sourcelink.json
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Infrastructure\obj\Debug\net8.0\InventoF.BA2E820E.Up2Date
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Infrastructure\obj\Debug\net8.0\InventoFlow.Infrastructure.dll
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Infrastructure\obj\Debug\net8.0\refint\InventoFlow.Infrastructure.dll
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Infrastructure\obj\Debug\net8.0\InventoFlow.Infrastructure.pdb
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Infrastructure\obj\Debug\net8.0\InventoFlow.Infrastructure.genruntimeconfig.cache
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Infrastructure\obj\Debug\net8.0\ref\InventoFlow.Infrastructure.dll

@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DDZk7uKwsNw=",
+  "dgSpecHash": "RSS6rNNf648=",
   "success": true,
-  "projectFilePath": "C:\\Users\\SAO BIEN\\source\\repos\\INVENTO-FLOW\\InventoFlow.Domain\\InventoFlow.Domain.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\SAO BIEN\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.21\\microsoft.netcore.app.ref.8.0.21.nupkg.sha512",
-    "C:\\Users\\SAO BIEN\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.21\\microsoft.windowsdesktop.app.ref.8.0.21.nupkg.sha512",
-    "C:\\Users\\SAO BIEN\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.21\\microsoft.aspnetcore.app.ref.8.0.21.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Project\\InventoFlow\\INVENTO-FLOW-Task3-\\InventoFlow.Domain\\InventoFlow.Domain.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

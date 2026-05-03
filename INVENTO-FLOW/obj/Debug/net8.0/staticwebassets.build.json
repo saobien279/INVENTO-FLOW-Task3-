@@ -1,1 +1,11 @@
-{"Version":1,"Hash":"riFL/YX95B2eUzkI4niIOOhdyQySHLcN7iKLmE+LhLE=","Source":"INVENTO-FLOW","BasePath":"/","Mode":"Root","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
+{
+  "Version": 1,
+  "Hash": "TkQKDNTSJ2LTr7yqSl8C0TpMRgguLuc4ukIj+RW2TCQ=",
+  "Source": "INVENTO-FLOW",
+  "BasePath": "_content/INVENTO-FLOW",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

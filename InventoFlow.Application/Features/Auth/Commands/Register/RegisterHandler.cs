@@ -23,7 +23,7 @@ namespace InventoFlow.Application.Features.Auth.Commands.Register
             var user = new User
             {
                 Username = request.Username,
-                Role = "User", // Mặc định tất cả đăng ký đều là User thường
+                RoleId = 1, // Mặc định ID 1 là Role User
                 PasswordHash = BCrypt.Net.BCrypt.HashPassword(request.Password)
             };
 

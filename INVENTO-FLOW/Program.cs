@@ -31,6 +31,7 @@ builder.Host.UseSerilog((context, configuration) =>
 
 
 builder.Services.AddAutoMapper(typeof(InventoFlow.Application.Mappings.MappingProfile)); // Dang ky AutoMapper
+
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 

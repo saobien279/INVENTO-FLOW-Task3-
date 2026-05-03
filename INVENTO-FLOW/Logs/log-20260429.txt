@@ -1,0 +1,313 @@
+2026-04-29 15:46:11.030 +07:00 [INF] User profile is available. Using 'C:\Users\SaoBien\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-29 15:46:11.109 +07:00 [INF] Creating key {83db4396-d47d-4b3d-813e-e84729a24b9b} with creation date 2026-04-29 08:46:11Z, activation date 2026-04-29 08:46:11Z, and expiration date 2026-07-28 08:46:11Z.
+2026-04-29 15:46:11.131 +07:00 [INF] Writing data to file 'C:\Users\SaoBien\AppData\Local\ASP.NET\DataProtection-Keys\key-83db4396-d47d-4b3d-813e-e84729a24b9b.xml'.
+2026-04-29 15:46:11.481 +07:00 [INF] Now listening on: http://localhost:5105
+2026-04-29 15:46:11.485 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 15:46:11.486 +07:00 [INF] Hosting environment: Development
+2026-04-29 15:46:11.486 +07:00 [INF] Content root path: C:\Project\InventoFlow\INVENTO-FLOW-Task3-\INVENTO-FLOW
+2026-04-29 15:48:16.076 +07:00 [INF] User profile is available. Using 'C:\Users\SaoBien\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-29 15:48:16.156 +07:00 [INF] Now listening on: http://localhost:5105
+2026-04-29 15:48:16.158 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 15:48:16.159 +07:00 [INF] Hosting environment: Development
+2026-04-29 15:48:16.159 +07:00 [INF] Content root path: C:\Project\InventoFlow\INVENTO-FLOW-Task3-\INVENTO-FLOW
+2026-04-29 15:48:19.537 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/ - null null
+2026-04-29 15:48:19.590 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-04-29 15:48:21.787 +07:00 [WRN] 🔴 [THẤT BẠI] HTTP GET / -> Phản hồi 404 (Thời gian xử lý: 2218ms)
+2026-04-29 15:48:21.850 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/ - 404 0 null 2314.6976ms
+2026-04-29 15:48:21.859 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5105/, Response status code: 404
+2026-04-29 15:48:28.379 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger - null null
+2026-04-29 15:48:28.385 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger -> Phản hồi 301 (Thời gian xử lý: 1ms)
+2026-04-29 15:48:28.388 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger - 301 0 null 9.1498ms
+2026-04-29 15:48:28.393 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/index.html - null null
+2026-04-29 15:48:28.508 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/index.html -> Phản hồi 200 (Thời gian xử lý: 111ms)
+2026-04-29 15:48:28.511 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/index.html - 200 null text/html;charset=utf-8 117.5876ms
+2026-04-29 15:48:28.531 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/swagger-ui.css - null null
+2026-04-29 15:48:28.532 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/swagger-ui-bundle.js - null null
+2026-04-29 15:48:28.532 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-29 15:48:28.554 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-04-29 15:48:28.554 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-04-29 15:48:28.554 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-04-29 15:48:28.558 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/swagger-ui-bundle.js -> Phản hồi 200 (Thời gian xử lý: 20ms)
+2026-04-29 15:48:28.559 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/swagger-ui.css -> Phản hồi 200 (Thời gian xử lý: 25ms)
+2026-04-29 15:48:28.561 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/swagger-ui-standalone-preset.js -> Phản hồi 200 (Thời gian xử lý: 19ms)
+2026-04-29 15:48:28.565 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 33.1008ms
+2026-04-29 15:48:28.568 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/swagger-ui.css - 200 152034 text/css 37.4884ms
+2026-04-29 15:48:28.572 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 39.5403ms
+2026-04-29 15:48:28.692 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - null null
+2026-04-29 15:48:28.722 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/favicon-32x32.png - null null
+2026-04-29 15:48:28.726 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-04-29 15:48:28.729 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/favicon-32x32.png -> Phản hồi 200 (Thời gian xử lý: 3ms)
+2026-04-29 15:48:28.731 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/favicon-32x32.png - 200 628 image/png 9.5838ms
+2026-04-29 15:48:28.830 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/v1/swagger.json -> Phản hồi 200 (Thời gian xử lý: 133ms)
+2026-04-29 15:48:28.834 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 142.2356ms
+2026-04-29 15:52:00.460 +07:00 [INF] Application is shutting down...
+2026-04-29 20:04:52.207 +07:00 [INF] Executed DbCommand (195ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [InventoFlowDb];
+2026-04-29 20:04:52.310 +07:00 [INF] Executed DbCommand (76ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [InventoFlowDb] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2026-04-29 20:04:52.324 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-04-29 20:04:52.368 +07:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2026-04-29 20:04:52.369 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-04-29 20:04:52.378 +07:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-04-29 20:04:52.401 +07:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-04-29 20:04:52.410 +07:00 [INF] Applying migration '20260306083517_InitialCreate'.
+2026-04-29 20:04:52.434 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [SKU] nvarchar(450) NOT NULL,
+    [Price] decimal(18,2) NOT NULL,
+    [StockQuantity] int NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([Id])
+);
+2026-04-29 20:04:52.436 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [PasswordHash] nvarchar(max) NOT NULL,
+    [Role] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id])
+);
+2026-04-29 20:04:52.438 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Orders] (
+    [Id] int NOT NULL IDENTITY,
+    [OrderDate] datetime2 NOT NULL,
+    [TotalAmount] decimal(18,2) NOT NULL,
+    [UserId] int NOT NULL,
+    CONSTRAINT [PK_Orders] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Orders_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2026-04-29 20:04:52.439 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [OrderItems] (
+    [Id] int NOT NULL IDENTITY,
+    [OrderId] int NOT NULL,
+    [ProductId] int NOT NULL,
+    [Quantity] int NOT NULL,
+    [PriceAtPurchase] decimal(18,2) NOT NULL,
+    CONSTRAINT [PK_OrderItems] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderItems_Orders_OrderId] FOREIGN KEY ([OrderId]) REFERENCES [Orders] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_OrderItems_Products_ProductId] FOREIGN KEY ([ProductId]) REFERENCES [Products] ([Id]) ON DELETE CASCADE
+);
+2026-04-29 20:04:52.443 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_OrderItems_OrderId] ON [OrderItems] ([OrderId]);
+2026-04-29 20:04:52.444 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_OrderItems_ProductId] ON [OrderItems] ([ProductId]);
+2026-04-29 20:04:52.445 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Orders_UserId] ON [Orders] ([UserId]);
+2026-04-29 20:04:52.445 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Products_SKU] ON [Products] ([SKU]);
+2026-04-29 20:04:52.450 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20260306083517_InitialCreate', N'8.0.0');
+2026-04-29 20:04:52.454 +07:00 [INF] Applying migration '20260319034401_AddUsernameToUser'.
+2026-04-29 20:04:52.460 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20260319034401_AddUsernameToUser', N'8.0.0');
+2026-04-29 20:04:52.460 +07:00 [INF] Applying migration '20260319035249_AddUsernameToUserV2'.
+2026-04-29 20:04:52.473 +07:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Users] ADD [Username] nvarchar(max) NOT NULL DEFAULT N'';
+2026-04-29 20:04:52.474 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20260319035249_AddUsernameToUserV2', N'8.0.0');
+2026-04-29 20:06:00.763 +07:00 [INF] User profile is available. Using 'C:\Users\SaoBien\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-29 20:06:00.857 +07:00 [INF] Now listening on: http://localhost:5105
+2026-04-29 20:06:00.860 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 20:06:00.861 +07:00 [INF] Hosting environment: Development
+2026-04-29 20:06:00.862 +07:00 [INF] Content root path: C:\Project\InventoFlow\INVENTO-FLOW-Task3-\INVENTO-FLOW
+2026-04-29 20:06:02.339 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/ - null null
+2026-04-29 20:06:02.369 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-04-29 20:06:02.400 +07:00 [WRN] 🔴 [THẤT BẠI] HTTP GET / -> Phản hồi 404 (Thời gian xử lý: 43ms)
+2026-04-29 20:06:02.408 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/ - 404 0 null 69.8782ms
+2026-04-29 20:06:02.413 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5105/, Response status code: 404
+2026-04-29 20:06:07.182 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/index.html - null null
+2026-04-29 20:06:07.315 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/index.html -> Phản hồi 200 (Thời gian xử lý: 127ms)
+2026-04-29 20:06:07.318 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/index.html - 200 null text/html;charset=utf-8 136.4363ms
+2026-04-29 20:06:07.483 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - null null
+2026-04-29 20:06:07.607 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/v1/swagger.json -> Phản hồi 200 (Thời gian xử lý: 120ms)
+2026-04-29 20:06:07.610 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 126.6254ms
+2026-04-29 20:06:43.077 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Auth/register - application/json 48
+2026-04-29 20:06:43.085 +07:00 [INF] CORS policy execution failed.
+2026-04-29 20:06:43.087 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-04-29 20:06:43.094 +07:00 [INF] Executing endpoint 'INVENTO_FLOW.Controllers.AuthController.Register (INVENTO-FLOW)'
+2026-04-29 20:06:43.129 +07:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(InventoFlow.Application.Features.Auth.Commands.Register.RegisterCommand) on controller INVENTO_FLOW.Controllers.AuthController (INVENTO-FLOW).
+2026-04-29 20:06:43.147 +07:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-04-29 20:06:43.321 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-29 20:06:43.365 +07:00 [INF] Executed action INVENTO_FLOW.Controllers.AuthController.Register (INVENTO-FLOW) in 229.3243ms
+2026-04-29 20:06:43.367 +07:00 [INF] Executed endpoint 'INVENTO_FLOW.Controllers.AuthController.Register (INVENTO-FLOW)'
+2026-04-29 20:06:43.369 +07:00 [WRN] 🔴 [THẤT BẠI] HTTP POST /api/Auth/register -> Phản hồi 400 (Thời gian xử lý: 285ms)
+2026-04-29 20:06:43.371 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Auth/register - 400 null application/problem+json; charset=utf-8 293.9697ms
+2026-04-29 20:06:51.835 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Auth/register - application/json 49
+2026-04-29 20:06:51.841 +07:00 [INF] CORS policy execution failed.
+2026-04-29 20:06:51.842 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-04-29 20:06:51.848 +07:00 [INF] Executing endpoint 'INVENTO_FLOW.Controllers.AuthController.Register (INVENTO-FLOW)'
+2026-04-29 20:06:51.850 +07:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(InventoFlow.Application.Features.Auth.Commands.Register.RegisterCommand) on controller INVENTO_FLOW.Controllers.AuthController (INVENTO-FLOW).
+2026-04-29 20:06:53.558 +07:00 [INF] Executed DbCommand (57ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Username] = @__username_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-04-29 20:06:54.412 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Name], [PasswordHash], [Role], [Username])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2026-04-29 20:06:54.452 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-29 20:06:54.528 +07:00 [INF] Executed action INVENTO_FLOW.Controllers.AuthController.Register (INVENTO-FLOW) in 2676.2628ms
+2026-04-29 20:06:54.531 +07:00 [INF] Executed endpoint 'INVENTO_FLOW.Controllers.AuthController.Register (INVENTO-FLOW)'
+2026-04-29 20:06:54.535 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP POST /api/Auth/register -> Phản hồi 200 (Thời gian xử lý: 2694ms)
+2026-04-29 20:06:54.545 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Auth/register - 200 null application/json; charset=utf-8 2709.9374ms
+2026-04-29 20:11:21.328 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Auth/login - application/json 49
+2026-04-29 20:11:21.332 +07:00 [INF] CORS policy execution failed.
+2026-04-29 20:11:21.333 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-04-29 20:11:21.337 +07:00 [INF] Executing endpoint 'INVENTO_FLOW.Controllers.AuthController.Login (INVENTO-FLOW)'
+2026-04-29 20:11:21.344 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(InventoFlow.Application.Features.Auth.Commands.Login.LoginCommand) on controller INVENTO_FLOW.Controllers.AuthController (INVENTO-FLOW).
+2026-04-29 20:11:21.436 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Name], [u].[PasswordHash], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0
+2026-04-29 20:11:21.741 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-29 20:11:21.746 +07:00 [INF] Executed action INVENTO_FLOW.Controllers.AuthController.Login (INVENTO-FLOW) in 398.2473ms
+2026-04-29 20:11:21.747 +07:00 [INF] Executed endpoint 'INVENTO_FLOW.Controllers.AuthController.Login (INVENTO-FLOW)'
+2026-04-29 20:11:21.749 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP POST /api/Auth/login -> Phản hồi 200 (Thời gian xử lý: 417ms)
+2026-04-29 20:11:21.753 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Auth/login - 200 null application/json; charset=utf-8 424.2372ms
+2026-04-29 20:12:31.638 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Products - application/json 84
+2026-04-29 20:12:31.642 +07:00 [INF] CORS policy execution failed.
+2026-04-29 20:12:31.643 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-04-29 20:12:31.694 +07:00 [INF] Executing endpoint 'INVENTO_FLOW.Controllers.ProductsController.Create (INVENTO-FLOW)'
+2026-04-29 20:12:31.698 +07:00 [INF] Route matched with {action = "Create", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(InventoFlow.Application.Features.Products.Commands.CreateProduct.CreateProductCommand) on controller INVENTO_FLOW.Controllers.ProductsController (INVENTO-FLOW).
+2026-04-29 20:12:31.958 +07:00 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (Size = 450), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Name], [Price], [SKU], [StockQuantity])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2026-04-29 20:12:31.974 +07:00 [INF] Executing CreatedAtActionResult, writing value of type 'InventoFlow.Application.DTOs.Product.ProductResponseDto'.
+2026-04-29 20:12:31.998 +07:00 [INF] Executed action INVENTO_FLOW.Controllers.ProductsController.Create (INVENTO-FLOW) in 296.6477ms
+2026-04-29 20:12:31.999 +07:00 [INF] Executed endpoint 'INVENTO_FLOW.Controllers.ProductsController.Create (INVENTO-FLOW)'
+2026-04-29 20:12:32.001 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP POST /api/Products -> Phản hồi 201 (Thời gian xử lý: 359ms)
+2026-04-29 20:12:32.004 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Products - 201 null application/json; charset=utf-8 365.5403ms
+2026-04-29 20:12:55.417 +07:00 [INF] Application is shutting down...
+2026-04-29 21:13:57.749 +07:00 [INF] User profile is available. Using 'C:\Users\SaoBien\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-29 21:13:57.828 +07:00 [INF] Now listening on: http://localhost:5105
+2026-04-29 21:13:57.831 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 21:13:57.832 +07:00 [INF] Hosting environment: Development
+2026-04-29 21:13:57.832 +07:00 [INF] Content root path: C:\Project\InventoFlow\INVENTO-FLOW-Task3-\INVENTO-FLOW
+2026-04-29 21:14:00.580 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/ - null null
+2026-04-29 21:14:00.639 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-04-29 21:14:00.696 +07:00 [WRN] 🔴 [THẤT BẠI] HTTP GET / -> Phản hồi 404 (Thời gian xử lý: 81ms)
+2026-04-29 21:14:00.707 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/ - 404 0 null 128.6976ms
+2026-04-29 21:14:00.716 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5105/, Response status code: 404
+2026-04-29 21:14:05.232 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/index.html - null null
+2026-04-29 21:14:05.348 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/index.html -> Phản hồi 200 (Thời gian xử lý: 111ms)
+2026-04-29 21:14:05.352 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/index.html - 200 null text/html;charset=utf-8 120.0314ms
+2026-04-29 21:14:05.443 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - null null
+2026-04-29 21:14:05.564 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/v1/swagger.json -> Phản hồi 200 (Thời gian xử lý: 116ms)
+2026-04-29 21:14:05.567 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 123.2126ms
+2026-04-29 21:14:17.542 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Auth/login - application/json 49
+2026-04-29 21:14:17.550 +07:00 [INF] CORS policy execution failed.
+2026-04-29 21:14:17.551 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-04-29 21:14:17.558 +07:00 [INF] Executing endpoint 'INVENTO_FLOW.Controllers.AuthController.Login (INVENTO-FLOW)'
+2026-04-29 21:14:17.587 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(InventoFlow.Application.Features.Auth.Commands.Login.LoginCommand) on controller INVENTO_FLOW.Controllers.AuthController (INVENTO-FLOW).
+2026-04-29 21:14:17.601 +07:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-04-29 21:14:18.997 +07:00 [INF] Executed DbCommand (42ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Name], [u].[PasswordHash], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0
+2026-04-29 21:14:19.858 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-29 21:14:19.885 +07:00 [INF] Executed action INVENTO_FLOW.Controllers.AuthController.Login (INVENTO-FLOW) in 2291.47ms
+2026-04-29 21:14:19.887 +07:00 [INF] Executed endpoint 'INVENTO_FLOW.Controllers.AuthController.Login (INVENTO-FLOW)'
+2026-04-29 21:14:19.892 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP POST /api/Auth/login -> Phản hồi 200 (Thời gian xử lý: 2343ms)
+2026-04-29 21:14:19.901 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Auth/login - 200 null application/json; charset=utf-8 2358.8303ms
+2026-04-29 21:15:41.807 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Products - application/json 85
+2026-04-29 21:15:41.813 +07:00 [INF] CORS policy execution failed.
+2026-04-29 21:15:41.814 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-04-29 21:15:41.869 +07:00 [INF] Executing endpoint 'INVENTO_FLOW.Controllers.ProductsController.Create (INVENTO-FLOW)'
+2026-04-29 21:15:41.875 +07:00 [INF] Route matched with {action = "Create", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(InventoFlow.Application.Features.Products.Commands.CreateProduct.CreateProductCommand) on controller INVENTO_FLOW.Controllers.ProductsController (INVENTO-FLOW).
+2026-04-29 21:15:42.161 +07:00 [INF] Executed DbCommand (10ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (Size = 450), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Name], [Price], [SKU], [StockQuantity])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2026-04-29 21:15:42.202 +07:00 [INF] Executing CreatedAtActionResult, writing value of type 'InventoFlow.Application.DTOs.Product.ProductResponseDto'.
+2026-04-29 21:15:42.224 +07:00 [INF] Executed action INVENTO_FLOW.Controllers.ProductsController.Create (INVENTO-FLOW) in 346.103ms
+2026-04-29 21:15:42.226 +07:00 [INF] Executed endpoint 'INVENTO_FLOW.Controllers.ProductsController.Create (INVENTO-FLOW)'
+2026-04-29 21:15:42.228 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP POST /api/Products -> Phản hồi 201 (Thời gian xử lý: 415ms)
+2026-04-29 21:15:42.231 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Products - 201 null application/json; charset=utf-8 423.7764ms
+2026-04-29 21:16:38.922 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Orders - application/json 195
+2026-04-29 21:16:38.926 +07:00 [INF] CORS policy execution failed.
+2026-04-29 21:16:38.927 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-04-29 21:16:38.931 +07:00 [INF] Executing endpoint 'INVENTO_FLOW.Controllers.OrdersController.Create (INVENTO-FLOW)'
+2026-04-29 21:16:38.938 +07:00 [INF] Route matched with {action = "Create", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(InventoFlow.Application.Features.Orders.Commands.CreateOrder.CreateOrderCommand) on controller INVENTO_FLOW.Controllers.OrdersController (INVENTO-FLOW).
+2026-04-29 21:16:39.109 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[SKU], [p].[StockQuantity]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2026-04-29 21:16:39.119 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[SKU], [p].[StockQuantity]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2026-04-29 21:16:39.215 +07:00 [INF] Executed DbCommand (14ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (DbType = Int32), @p7='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p5='?' (Size = 450), @p6='?' (DbType = Int32), @p12='?' (DbType = Int32), @p8='?' (Size = 4000), @p9='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p10='?' (Size = 450), @p11='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([OrderDate], [TotalAmount], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+UPDATE [Products] SET [Name] = @p3, [Price] = @p4, [SKU] = @p5, [StockQuantity] = @p6
+OUTPUT 1
+WHERE [Id] = @p7;
+UPDATE [Products] SET [Name] = @p8, [Price] = @p9, [SKU] = @p10, [StockQuantity] = @p11
+OUTPUT 1
+WHERE [Id] = @p12;
+2026-04-29 21:16:39.248 +07:00 [INF] Executed DbCommand (17ms) [Parameters=[@p13='?' (DbType = Int32), @p14='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p15='?' (DbType = Int32), @p16='?' (DbType = Int32), @p17='?' (DbType = Int32), @p18='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p19='?' (DbType = Int32), @p20='?' (DbType = Int32), @p21='?' (DbType = Int32), @p22='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p23='?' (DbType = Int32), @p24='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [OrderItems] USING (
+VALUES (@p13, @p14, @p15, @p16, 0),
+(@p17, @p18, @p19, @p20, 1),
+(@p21, @p22, @p23, @p24, 2)) AS i ([OrderId], [PriceAtPurchase], [ProductId], [Quantity], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([OrderId], [PriceAtPurchase], [ProductId], [Quantity])
+VALUES (i.[OrderId], i.[PriceAtPurchase], i.[ProductId], i.[Quantity])
+OUTPUT INSERTED.[Id], i._Position;
+2026-04-29 21:16:39.270 +07:00 [INF] Executing CreatedAtActionResult, writing value of type 'InventoFlow.Application.DTOs.Order.OrderResponseDto'.
+2026-04-29 21:16:39.283 +07:00 [INF] Executed action INVENTO_FLOW.Controllers.OrdersController.Create (INVENTO-FLOW) in 342.5049ms
+2026-04-29 21:16:39.285 +07:00 [INF] Executed endpoint 'INVENTO_FLOW.Controllers.OrdersController.Create (INVENTO-FLOW)'
+2026-04-29 21:16:39.287 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP POST /api/Orders -> Phản hồi 201 (Thời gian xử lý: 361ms)
+2026-04-29 21:16:39.290 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Orders - 201 null application/json; charset=utf-8 368.3021ms
+2026-04-29 21:17:31.111 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/api/Orders/user/1 - null null
+2026-04-29 21:17:31.115 +07:00 [INF] Executing endpoint 'INVENTO_FLOW.Controllers.OrdersController.GetByUserId (INVENTO-FLOW)'
+2026-04-29 21:17:31.125 +07:00 [INF] Route matched with {action = "GetByUserId", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetByUserId(Int32) on controller INVENTO_FLOW.Controllers.OrdersController (INVENTO-FLOW).
+2026-04-29 21:17:31.239 +07:00 [INF] Executed DbCommand (12ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[OrderDate], [o].[TotalAmount], [o].[UserId], [t].[Id], [t].[OrderId], [t].[PriceAtPurchase], [t].[ProductId], [t].[Quantity], [t].[Id0], [t].[Name], [t].[Price], [t].[SKU], [t].[StockQuantity]
+FROM [Orders] AS [o]
+LEFT JOIN (
+    SELECT [o0].[Id], [o0].[OrderId], [o0].[PriceAtPurchase], [o0].[ProductId], [o0].[Quantity], [p].[Id] AS [Id0], [p].[Name], [p].[Price], [p].[SKU], [p].[StockQuantity]
+    FROM [OrderItems] AS [o0]
+    INNER JOIN [Products] AS [p] ON [o0].[ProductId] = [p].[Id]
+) AS [t] ON [o].[Id] = [t].[OrderId]
+WHERE [o].[UserId] = @__userId_0
+ORDER BY [o].[Id], [t].[Id]
+2026-04-29 21:17:31.260 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[InventoFlow.Application.DTOs.Order.OrderResponseDto, InventoFlow.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-29 21:17:31.263 +07:00 [INF] Executed action INVENTO_FLOW.Controllers.OrdersController.GetByUserId (INVENTO-FLOW) in 135.0542ms
+2026-04-29 21:17:31.265 +07:00 [INF] Executed endpoint 'INVENTO_FLOW.Controllers.OrdersController.GetByUserId (INVENTO-FLOW)'
+2026-04-29 21:17:31.267 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /api/Orders/user/1 -> Phản hồi 200 (Thời gian xử lý: 152ms)
+2026-04-29 21:17:31.270 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/api/Orders/user/1 - 200 null application/json; charset=utf-8 158.9128ms
+2026-04-29 21:34:38.707 +07:00 [INF] Application is shutting down...

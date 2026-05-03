@@ -30,7 +30,7 @@ namespace InventoFlow.Application.Services
             var user = new User
             {
                 Username = dto.Username,
-                Role = "User",
+                RoleId = 1, // Giả sử ID 1 là Role User
                 // Thực hiện Hash mật khẩu bằng thư viện BCrypt
                 PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password)
             };
@@ -56,7 +56,7 @@ namespace InventoFlow.Application.Services
             {
                 new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
                 new Claim(ClaimTypes.Name, user.Username),
-                new Claim(ClaimTypes.Role, user.Role)
+                new Claim(ClaimTypes.Role, user.Role?.Name ?? "User")
             };
 
             // Lấy Secret Key (chữ ký admin) từ appsettings.json

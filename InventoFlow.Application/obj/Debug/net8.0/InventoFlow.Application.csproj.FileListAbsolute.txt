@@ -14,3 +14,19 @@ C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Application\obj\Debug\ne
 C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Application\obj\Debug\net8.0\refint\InventoFlow.Application.dll
 C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Application\obj\Debug\net8.0\InventoFlow.Application.pdb
 C:\Users\SAO BIEN\source\repos\INVENTO-FLOW\InventoFlow.Application\obj\Debug\net8.0\ref\InventoFlow.Application.dll
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Application\bin\Debug\net8.0\InventoFlow.Application.deps.json
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Application\bin\Debug\net8.0\InventoFlow.Application.dll
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Application\bin\Debug\net8.0\InventoFlow.Application.pdb
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Application\bin\Debug\net8.0\InventoFlow.Domain.dll
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Application\bin\Debug\net8.0\InventoFlow.Domain.pdb
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Application\obj\Debug\net8.0\InventoFlow.Application.csproj.AssemblyReference.cache
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Application\obj\Debug\net8.0\InventoFlow.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Application\obj\Debug\net8.0\InventoFlow.Application.AssemblyInfoInputs.cache
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Application\obj\Debug\net8.0\InventoFlow.Application.AssemblyInfo.cs
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Application\obj\Debug\net8.0\InventoFlow.Application.csproj.CoreCompileInputs.cache
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Application\obj\Debug\net8.0\InventoFlow.Application.sourcelink.json
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Application\obj\Debug\net8.0\InventoF.20DADBFE.Up2Date
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Application\obj\Debug\net8.0\InventoFlow.Application.dll
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Application\obj\Debug\net8.0\refint\InventoFlow.Application.dll
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Application\obj\Debug\net8.0\InventoFlow.Application.pdb
+C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Application\obj\Debug\net8.0\ref\InventoFlow.Application.dll

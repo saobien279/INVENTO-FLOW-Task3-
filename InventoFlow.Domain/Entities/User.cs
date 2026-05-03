@@ -1,4 +1,4 @@
-﻿namespace InventoFlow.Domain.Entities
+namespace InventoFlow.Domain.Entities
 {
     public class User
     {
@@ -6,7 +6,10 @@
         public string Username { get; set; } = string.Empty; // Thêm trường này
         public string Name { get; set; } = string.Empty;
         public string PasswordHash { get; set; } = string.Empty;
-        public string Role { get; set; } = string.Empty;
+        
+        // --- KHOÁ NGOẠI MỚI ---
+        public int RoleId { get; set; }
+        public Role? Role { get; set; }
 
         // Nên thêm quan hệ ngược lại với Order để dễ truy vấn
         public ICollection<Order>? Orders { get; set; }
