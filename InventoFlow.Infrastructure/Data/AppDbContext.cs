@@ -77,6 +77,12 @@ namespace InventoFlow.Infrastructure.Data
                 .WithMany(s => s.Products)
                 .HasForeignKey(p => p.SupplierId)
                 .OnDelete(DeleteBehavior.SetNull);
+
+            // 8. Gieo hạt (Seed) dữ liệu mặc định cho bảng Roles
+            modelBuilder.Entity<Role>().HasData(
+                new Role { Id = 1, Name = "User" },
+                new Role { Id = 2, Name = "Admin" }
+            );
         }
     }
 }

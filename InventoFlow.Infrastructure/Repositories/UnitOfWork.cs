@@ -11,6 +11,8 @@ namespace InventoFlow.Infrastructure.Repositories
         public IProductRepository Products { get; private set; }
         public IOrderRepository Orders { get; private set; }
         public IUserRepository Users { get; private set; }
+        public ICategoryRepository Categories { get; private set; }
+        public ISupplierRepository Suppliers { get; private set; }
 
         public UnitOfWork(AppDbContext context)
         {
@@ -20,6 +22,8 @@ namespace InventoFlow.Infrastructure.Repositories
             Products = new ProductRepository(_context);
             Orders = new OrderRepository(_context);
             Users = new UserRepository(_context);
+            Categories = new CategoryRepository(_context);
+            Suppliers = new SupplierRepository(_context);
         }   
 
         public async Task<int> CompleteAsync()

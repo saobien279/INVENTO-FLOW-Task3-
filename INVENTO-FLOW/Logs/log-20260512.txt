@@ -1,0 +1,5 @@
+2026-05-12 13:43:22.477 +07:00 [INF] User profile is available. Using 'C:\Users\SaoBien\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-12 13:43:22.584 +07:00 [INF] Now listening on: http://localhost:5105
+2026-05-12 13:43:22.586 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-12 13:43:22.587 +07:00 [INF] Hosting environment: Development
+2026-05-12 13:43:22.588 +07:00 [INF] Content root path: C:\Project\InventoFlow\INVENTO-FLOW-Task3-\INVENTO-FLOW

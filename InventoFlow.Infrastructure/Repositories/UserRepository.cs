@@ -26,7 +26,9 @@ namespace InventoFlow.Infrastructure.Repositories
 
         public async Task<User?> GetByUsernameAsync(string username)
         {
-            return await _context.Users.FirstOrDefaultAsync(u => u.Username == username);
+            return await _context.Users
+                .Include(u => u.Role) // Bắt buộc phải có dòng này để móc dữ liệu bảng Role lên
+                .FirstOrDefaultAsync(u => u.Username == username);
         }
     }
 }

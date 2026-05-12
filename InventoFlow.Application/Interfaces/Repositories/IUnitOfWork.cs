@@ -6,6 +6,8 @@ namespace InventoFlow.Application.Interfaces.Repositories
         IProductRepository Products { get; }
         IOrderRepository Orders { get; }
         IUserRepository Users { get; }
+        ICategoryRepository Categories { get; }
+        ISupplierRepository Suppliers { get; }
 
         // Hàm quan trọng nhất: Lưu tất cả thay đổi trong một Transaction
         Task<int> CompleteAsync();

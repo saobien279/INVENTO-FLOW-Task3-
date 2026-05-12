@@ -7,6 +7,7 @@ using InventoFlow.Application.Features.Products.Commands.CreateProduct;
 using InventoFlow.Application.Features.Products.Commands.UpdateProduct;
 using InventoFlow.Application.Features.Products.Commands.DeleteProduct;
 using InventoFlow.Application.PageQuery;
+using InventoFlow.Application.DTOs.Product;
 
 namespace INVENTO_FLOW.Controllers
 {
@@ -42,9 +43,9 @@ namespace INVENTO_FLOW.Controllers
         // 3. Thêm mới sản phẩm — Chỉ Admin
         [Authorize(Roles = "Admin")]
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] CreateProductCommand command)
+        public async Task<IActionResult> Create([FromBody] ProductCreateDto dto)
         {
-            var result = await _mediator.Send(command);
+            var result = await _mediator.Send(new CreateProductCommand(dto));
             // 201 Created + Header Location + toàn bộ dữ liệu sản phẩm mới
             return CreatedAtAction(nameof(GetById), new { id = result.Id }, result);
         }
@@ -52,13 +53,13 @@ namespace INVENTO_FLOW.Controllers
         // 4. Cập nhật sản phẩm — Chỉ Admin
         [Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] UpdateProductCommand command)
+        public async Task<IActionResult> Update(int id, [FromBody] ProductUpdateDto dto)
         {
             // Đảm bảo Id trong route khớp với Id trong body
-            if (id != command.Id)
+            if (id != dto.Id)
                 return BadRequest(new { message = "Id trên route và Id trong body không khớp." });
 
-            var success = await _mediator.Send(command);
+            var success = await _mediator.Send(new UpdateProductCommand(dto));
             if (!success)
                 return NotFound(new { message = "Cập nhật thất bại. Sản phẩm không tồn tại." });
 

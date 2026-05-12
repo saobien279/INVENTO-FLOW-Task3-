@@ -1,4 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 
 namespace InventoFlow.Application.DTOs.Product
 {
@@ -12,5 +12,8 @@ namespace InventoFlow.Application.DTOs.Product
         public decimal Price { get; set; }
 
         public int StockQuantity { get; set; }
+
+        public int? CategoryId { get; set; }
+        public int? SupplierId { get; set; }
     }
 }

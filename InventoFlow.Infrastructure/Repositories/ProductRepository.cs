@@ -12,7 +12,10 @@ namespace InventoFlow.Infrastructure.Repositories
 
         public async Task<(IEnumerable<Product> Items, int TotalCount)> GetAllAsync(ProductQueryParams query)
         {
-            var collection = _context.Products.AsQueryable();
+            var collection = _context.Products
+                .Include(p => p.Category)
+                .Include(p => p.Supplier)
+                .AsQueryable();
 
             // 1. Searching (Tìm kiếm theo tên hoặc SKU)
             if (!string.IsNullOrWhiteSpace(query.SearchTerm))
@@ -47,7 +50,7 @@ namespace InventoFlow.Infrastructure.Repositories
             return (items, totalCount);
         }
         
-        public async Task<Product?> GetByIdAsync(int id) => await _context.Products.FindAsync(id);
+        public async Task<Product?> GetByIdAsync(int id) => await _context.Products.Include(p => p.Category).Include(p => p.Supplier).FirstOrDefaultAsync(p => p.Id == id);
         public async Task<Product?> GetBySKUAsync(string sku) => await _context.Products.FirstOrDefaultAsync(p => p.SKU == sku);
         public async Task AddAsync(Product product) => await _context.Products.AddAsync(product);
         public void Update(Product product) => _context.Products.Update(product);

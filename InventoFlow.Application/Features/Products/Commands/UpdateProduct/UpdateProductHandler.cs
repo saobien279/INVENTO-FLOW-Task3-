@@ -16,14 +16,16 @@ namespace InventoFlow.Application.Features.Products.Commands.UpdateProduct
         public async Task<bool> Handle(UpdateProductCommand request, CancellationToken cancellationToken)
         {
             // 1. Tìm sản phẩm cần sửa
-            var product = await _unitOfWork.Products.GetByIdAsync(request.Id);
+            var product = await _unitOfWork.Products.GetByIdAsync(request.Dto.Id);
             if (product == null) return false;
 
-            // 2. Cập nhật các trường bị thay đổi (chỉ cập nhật nếu có giá trị mới)
-            if (!string.IsNullOrWhiteSpace(request.Name)) product.Name = request.Name;
-            if (!string.IsNullOrWhiteSpace(request.SKU))  product.SKU = request.SKU;
-            product.Price = request.Price;
-            product.StockQuantity = request.StockQuantity;
+            // 2. Cập nhật các trường bị thay đổi
+            if (!string.IsNullOrWhiteSpace(request.Dto.Name)) product.Name = request.Dto.Name;
+            if (!string.IsNullOrWhiteSpace(request.Dto.SKU))  product.SKU = request.Dto.SKU;
+            product.Price = request.Dto.Price;
+            product.StockQuantity = request.Dto.StockQuantity;
+            product.CategoryId = request.Dto.CategoryId;
+            product.SupplierId = request.Dto.SupplierId;
 
             // 3. Đánh dấu đã thay đổi
             _unitOfWork.Products.Update(product);

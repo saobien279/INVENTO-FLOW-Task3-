@@ -1,4 +1,4 @@
-﻿namespace InventoFlow.Application.DTOs.Product
+namespace InventoFlow.Application.DTOs.Product
 {
     public class ProductUpdateDto
     {
@@ -7,6 +7,9 @@
         public string? SKU { get; set; }
         public decimal Price { get; set; }
         public int StockQuantity { get; set; }
+
+        public int? CategoryId { get; set; }
+        public int? SupplierId { get; set; }
 
         // Sen có thể thêm logic hiển thị trạng thái kho tại đây
         public string StockStatus => StockQuantity > 0 ? "Còn hàng" : "Hết hàng";

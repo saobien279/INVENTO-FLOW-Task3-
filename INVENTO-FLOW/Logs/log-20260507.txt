@@ -1,0 +1,973 @@
+2026-05-07 14:11:22.719 +07:00 [INF] User profile is available. Using 'C:\Users\SaoBien\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-07 14:11:22.832 +07:00 [INF] Now listening on: http://localhost:5105
+2026-05-07 14:11:22.835 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-07 14:11:22.836 +07:00 [INF] Hosting environment: Development
+2026-05-07 14:11:22.836 +07:00 [INF] Content root path: C:\Project\InventoFlow\INVENTO-FLOW-Task3-\INVENTO-FLOW
+2026-05-07 14:11:26.979 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/ - null null
+2026-05-07 14:11:27.044 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-05-07 14:11:27.107 +07:00 [WRN] 🔴 [THẤT BẠI] HTTP GET / -> Phản hồi 404 (Thời gian xử lý: 92ms)
+2026-05-07 14:11:27.120 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/ - 404 0 null 144.2241ms
+2026-05-07 14:11:27.130 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5105/, Response status code: 404
+2026-05-07 14:11:28.369 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/ - null null
+2026-05-07 14:11:28.375 +07:00 [WRN] 🔴 [THẤT BẠI] HTTP GET / -> Phản hồi 404 (Thời gian xử lý: 2ms)
+2026-05-07 14:11:28.378 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/ - 404 0 null 9.0374ms
+2026-05-07 14:11:28.384 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5105/, Response status code: 404
+2026-05-07 14:11:28.824 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/ - null null
+2026-05-07 14:11:28.830 +07:00 [WRN] 🔴 [THẤT BẠI] HTTP GET / -> Phản hồi 404 (Thời gian xử lý: 2ms)
+2026-05-07 14:11:28.833 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/ - 404 0 null 8.3774ms
+2026-05-07 14:11:28.836 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5105/, Response status code: 404
+2026-05-07 14:11:32.256 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger - null null
+2026-05-07 14:11:32.261 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger -> Phản hồi 301 (Thời gian xử lý: 0ms)
+2026-05-07 14:11:32.263 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger - 301 0 null 6.5021ms
+2026-05-07 14:11:32.268 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/index.html - null null
+2026-05-07 14:11:32.392 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/index.html -> Phản hồi 200 (Thời gian xử lý: 120ms)
+2026-05-07 14:11:32.394 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/index.html - 200 null text/html;charset=utf-8 126.7555ms
+2026-05-07 14:11:32.418 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/swagger-ui.css - null null
+2026-05-07 14:11:32.419 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/swagger-ui-bundle.js - null null
+2026-05-07 14:11:32.420 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-07 14:11:32.441 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-05-07 14:11:32.441 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-05-07 14:11:32.444 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/swagger-ui-standalone-preset.js -> Phản hồi 200 (Thời gian xử lý: 16ms)
+2026-05-07 14:11:32.444 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/swagger-ui.css -> Phản hồi 200 (Thời gian xử lý: 23ms)
+2026-05-07 14:11:32.447 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 27.118ms
+2026-05-07 14:11:32.449 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/swagger-ui.css - 200 152034 text/css 30.7598ms
+2026-05-07 14:11:32.465 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-05-07 14:11:32.467 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/swagger-ui-bundle.js -> Phản hồi 200 (Thời gian xử lý: 42ms)
+2026-05-07 14:11:32.469 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 49.5592ms
+2026-05-07 14:11:32.595 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - null null
+2026-05-07 14:11:32.630 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/favicon-32x32.png - null null
+2026-05-07 14:11:32.634 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-05-07 14:11:32.636 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/favicon-32x32.png -> Phản hồi 200 (Thời gian xử lý: 2ms)
+2026-05-07 14:11:32.638 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/favicon-32x32.png - 200 628 image/png 7.3288ms
+2026-05-07 14:11:32.725 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/v1/swagger.json -> Phản hồi 200 (Thời gian xử lý: 125ms)
+2026-05-07 14:11:32.727 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 131.9352ms
+2026-05-07 14:12:26.926 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Auth/login - application/json 48
+2026-05-07 14:12:26.933 +07:00 [INF] CORS policy execution failed.
+2026-05-07 14:12:26.934 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-05-07 14:12:26.940 +07:00 [INF] Executing endpoint 'INVENTO_FLOW.Controllers.AuthController.Login (INVENTO-FLOW)'
+2026-05-07 14:12:26.970 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(InventoFlow.Application.Features.Auth.Commands.Login.LoginCommand) on controller INVENTO_FLOW.Controllers.AuthController (INVENTO-FLOW).
+2026-05-07 14:12:26.983 +07:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-05-07 14:12:28.537 +07:00 [INF] Executed DbCommand (49ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Name], [u].[PasswordHash], [u].[RoleId], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0
+2026-05-07 14:12:28.568 +07:00 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-07 14:12:28.606 +07:00 [INF] Executed action INVENTO_FLOW.Controllers.AuthController.Login (INVENTO-FLOW) in 1629.1676ms
+2026-05-07 14:12:28.609 +07:00 [INF] Executed endpoint 'INVENTO_FLOW.Controllers.AuthController.Login (INVENTO-FLOW)'
+2026-05-07 14:12:28.612 +07:00 [WRN] 🔴 [THẤT BẠI] HTTP POST /api/Auth/login -> Phản hồi 401 (Thời gian xử lý: 1680ms)
+2026-05-07 14:12:28.621 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Auth/login - 401 null application/json; charset=utf-8 1694.9783ms
+2026-05-07 14:12:34.497 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Auth/login - application/json 49
+2026-05-07 14:12:34.502 +07:00 [INF] CORS policy execution failed.
+2026-05-07 14:12:34.503 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-05-07 14:12:34.509 +07:00 [INF] Executing endpoint 'INVENTO_FLOW.Controllers.AuthController.Login (INVENTO-FLOW)'
+2026-05-07 14:12:34.512 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(InventoFlow.Application.Features.Auth.Commands.Login.LoginCommand) on controller INVENTO_FLOW.Controllers.AuthController (INVENTO-FLOW).
+2026-05-07 14:12:34.549 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Name], [u].[PasswordHash], [u].[RoleId], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0
+2026-05-07 14:12:34.553 +07:00 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-07 14:12:34.556 +07:00 [INF] Executed action INVENTO_FLOW.Controllers.AuthController.Login (INVENTO-FLOW) in 41.5667ms
+2026-05-07 14:12:34.558 +07:00 [INF] Executed endpoint 'INVENTO_FLOW.Controllers.AuthController.Login (INVENTO-FLOW)'
+2026-05-07 14:12:34.560 +07:00 [WRN] 🔴 [THẤT BẠI] HTTP POST /api/Auth/login -> Phản hồi 401 (Thời gian xử lý: 58ms)
+2026-05-07 14:12:34.563 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Auth/login - 401 null application/json; charset=utf-8 66.1093ms
+2026-05-07 14:13:00.301 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Auth/register - application/json 48
+2026-05-07 14:13:00.305 +07:00 [INF] CORS policy execution failed.
+2026-05-07 14:13:00.307 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-05-07 14:13:00.310 +07:00 [INF] Executing endpoint 'INVENTO_FLOW.Controllers.AuthController.Register (INVENTO-FLOW)'
+2026-05-07 14:13:00.319 +07:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(InventoFlow.Application.Features.Auth.Commands.Register.RegisterCommand) on controller INVENTO_FLOW.Controllers.AuthController (INVENTO-FLOW).
+2026-05-07 14:13:00.345 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-05-07 14:13:00.382 +07:00 [INF] Executed action INVENTO_FLOW.Controllers.AuthController.Register (INVENTO-FLOW) in 58.1394ms
+2026-05-07 14:13:00.384 +07:00 [INF] Executed endpoint 'INVENTO_FLOW.Controllers.AuthController.Register (INVENTO-FLOW)'
+2026-05-07 14:13:00.386 +07:00 [WRN] 🔴 [THẤT BẠI] HTTP POST /api/Auth/register -> Phản hồi 400 (Thời gian xử lý: 80ms)
+2026-05-07 14:13:00.389 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Auth/register - 400 null application/problem+json; charset=utf-8 87.6463ms
+2026-05-07 14:13:05.522 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Auth/register - application/json 49
+2026-05-07 14:13:05.527 +07:00 [INF] CORS policy execution failed.
+2026-05-07 14:13:05.528 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-05-07 14:13:05.529 +07:00 [INF] Executing endpoint 'INVENTO_FLOW.Controllers.AuthController.Register (INVENTO-FLOW)'
+2026-05-07 14:13:05.531 +07:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(InventoFlow.Application.Features.Auth.Commands.Register.RegisterCommand) on controller INVENTO_FLOW.Controllers.AuthController (INVENTO-FLOW).
+2026-05-07 14:13:05.642 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Username] = @__username_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-05-07 14:13:06.260 +07:00 [INF] Executed DbCommand (13ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Name], [PasswordHash], [RoleId], [Username])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2026-05-07 14:13:06.291 +07:00 [ERR] An exception occurred in the database while saving changes for context type 'InventoFlow.Infrastructure.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Users_Roles_RoleId". The conflict occurred in database "InventoFlowDb", table "dbo.Roles", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:148a878a-07fe-4946-af5d-cb6b2cef39d2
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Users_Roles_RoleId". The conflict occurred in database "InventoFlowDb", table "dbo.Roles", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:148a878a-07fe-4946-af5d-cb6b2cef39d2
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2026-05-07 14:13:06.306 +07:00 [INF] Executed action INVENTO_FLOW.Controllers.AuthController.Register (INVENTO-FLOW) in 771.6229ms
+2026-05-07 14:13:06.308 +07:00 [INF] Executed endpoint 'INVENTO_FLOW.Controllers.AuthController.Register (INVENTO-FLOW)'
+2026-05-07 14:13:06.310 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP POST /api/Auth/register -> Phản hồi 200 (Thời gian xử lý: 783ms)
+2026-05-07 14:13:06.314 +07:00 [ERR] Lỗi hệ thống bất định: An error occurred while saving the entity changes. See the inner exception for details.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Users_Roles_RoleId". The conflict occurred in database "InventoFlowDb", table "dbo.Roles", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:148a878a-07fe-4946-af5d-cb6b2cef39d2
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at InventoFlow.Infrastructure.Repositories.UnitOfWork.CompleteAsync() in C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Infrastructure\Repositories\UnitOfWork.cs:line 29
+   at InventoFlow.Application.Features.Auth.Commands.Register.RegisterHandler.Handle(RegisterCommand request, CancellationToken cancellationToken) in C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Application\Features\Auth\Commands\Register\RegisterHandler.cs:line 32
+   at InventoFlow.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Application\Common\Behaviors.cs:line 39
+   at INVENTO_FLOW.Controllers.AuthController.Register(RegisterCommand command) in C:\Project\InventoFlow\INVENTO-FLOW-Task3-\INVENTO-FLOW\Controllers\AuthController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at INVENTO_FLOW.Middleware.RequestLoggingMiddleware.InvokeAsync(HttpContext context) in C:\Project\InventoFlow\INVENTO-FLOW-Task3-\INVENTO-FLOW\Middleware\RequestLoggingMiddleware.cs:line 29
+   at INVENTO_FLOW.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Project\InventoFlow\INVENTO-FLOW-Task3-\INVENTO-FLOW\Middleware\GlobalExceptionMiddleware.cs:line 26
+2026-05-07 14:13:06.380 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Auth/register - 500 null application/json 857.3865ms
+2026-05-07 14:13:23.124 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Auth/register - application/json 49
+2026-05-07 14:13:23.128 +07:00 [INF] CORS policy execution failed.
+2026-05-07 14:13:23.129 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-05-07 14:13:23.131 +07:00 [INF] Executing endpoint 'INVENTO_FLOW.Controllers.AuthController.Register (INVENTO-FLOW)'
+2026-05-07 14:13:23.134 +07:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(InventoFlow.Application.Features.Auth.Commands.Register.RegisterCommand) on controller INVENTO_FLOW.Controllers.AuthController (INVENTO-FLOW).
+2026-05-07 14:13:23.143 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Username] = @__username_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-05-07 14:13:23.363 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Name], [PasswordHash], [RoleId], [Username])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2026-05-07 14:13:23.368 +07:00 [ERR] An exception occurred in the database while saving changes for context type 'InventoFlow.Infrastructure.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Users_Roles_RoleId". The conflict occurred in database "InventoFlowDb", table "dbo.Roles", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:148a878a-07fe-4946-af5d-cb6b2cef39d2
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Users_Roles_RoleId". The conflict occurred in database "InventoFlowDb", table "dbo.Roles", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:148a878a-07fe-4946-af5d-cb6b2cef39d2
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2026-05-07 14:13:23.382 +07:00 [INF] Executed action INVENTO_FLOW.Controllers.AuthController.Register (INVENTO-FLOW) in 245.4296ms
+2026-05-07 14:13:23.384 +07:00 [INF] Executed endpoint 'INVENTO_FLOW.Controllers.AuthController.Register (INVENTO-FLOW)'
+2026-05-07 14:13:23.386 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP POST /api/Auth/register -> Phản hồi 200 (Thời gian xử lý: 258ms)
+2026-05-07 14:13:23.390 +07:00 [ERR] Lỗi hệ thống bất định: An error occurred while saving the entity changes. See the inner exception for details.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Users_Roles_RoleId". The conflict occurred in database "InventoFlowDb", table "dbo.Roles", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:148a878a-07fe-4946-af5d-cb6b2cef39d2
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at InventoFlow.Infrastructure.Repositories.UnitOfWork.CompleteAsync() in C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Infrastructure\Repositories\UnitOfWork.cs:line 29
+   at InventoFlow.Application.Features.Auth.Commands.Register.RegisterHandler.Handle(RegisterCommand request, CancellationToken cancellationToken) in C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Application\Features\Auth\Commands\Register\RegisterHandler.cs:line 32
+   at InventoFlow.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Application\Common\Behaviors.cs:line 39
+   at INVENTO_FLOW.Controllers.AuthController.Register(RegisterCommand command) in C:\Project\InventoFlow\INVENTO-FLOW-Task3-\INVENTO-FLOW\Controllers\AuthController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at INVENTO_FLOW.Middleware.RequestLoggingMiddleware.InvokeAsync(HttpContext context) in C:\Project\InventoFlow\INVENTO-FLOW-Task3-\INVENTO-FLOW\Middleware\RequestLoggingMiddleware.cs:line 29
+   at INVENTO_FLOW.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Project\InventoFlow\INVENTO-FLOW-Task3-\INVENTO-FLOW\Middleware\GlobalExceptionMiddleware.cs:line 26
+2026-05-07 14:13:23.410 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Auth/register - 500 null application/json 285.7924ms
+2026-05-07 14:13:24.607 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Auth/register - application/json 49
+2026-05-07 14:13:24.611 +07:00 [INF] CORS policy execution failed.
+2026-05-07 14:13:24.612 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-05-07 14:13:24.614 +07:00 [INF] Executing endpoint 'INVENTO_FLOW.Controllers.AuthController.Register (INVENTO-FLOW)'
+2026-05-07 14:13:24.616 +07:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(InventoFlow.Application.Features.Auth.Commands.Register.RegisterCommand) on controller INVENTO_FLOW.Controllers.AuthController (INVENTO-FLOW).
+2026-05-07 14:13:24.626 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Username] = @__username_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-05-07 14:13:24.852 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Name], [PasswordHash], [RoleId], [Username])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2026-05-07 14:13:24.857 +07:00 [ERR] An exception occurred in the database while saving changes for context type 'InventoFlow.Infrastructure.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Users_Roles_RoleId". The conflict occurred in database "InventoFlowDb", table "dbo.Roles", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:148a878a-07fe-4946-af5d-cb6b2cef39d2
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Users_Roles_RoleId". The conflict occurred in database "InventoFlowDb", table "dbo.Roles", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:148a878a-07fe-4946-af5d-cb6b2cef39d2
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2026-05-07 14:13:24.871 +07:00 [INF] Executed action INVENTO_FLOW.Controllers.AuthController.Register (INVENTO-FLOW) in 251.7064ms
+2026-05-07 14:13:24.873 +07:00 [INF] Executed endpoint 'INVENTO_FLOW.Controllers.AuthController.Register (INVENTO-FLOW)'
+2026-05-07 14:13:24.875 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP POST /api/Auth/register -> Phản hồi 200 (Thời gian xử lý: 264ms)
+2026-05-07 14:13:24.879 +07:00 [ERR] Lỗi hệ thống bất định: An error occurred while saving the entity changes. See the inner exception for details.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Users_Roles_RoleId". The conflict occurred in database "InventoFlowDb", table "dbo.Roles", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:148a878a-07fe-4946-af5d-cb6b2cef39d2
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at InventoFlow.Infrastructure.Repositories.UnitOfWork.CompleteAsync() in C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Infrastructure\Repositories\UnitOfWork.cs:line 29
+   at InventoFlow.Application.Features.Auth.Commands.Register.RegisterHandler.Handle(RegisterCommand request, CancellationToken cancellationToken) in C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Application\Features\Auth\Commands\Register\RegisterHandler.cs:line 32
+   at InventoFlow.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Application\Common\Behaviors.cs:line 39
+   at INVENTO_FLOW.Controllers.AuthController.Register(RegisterCommand command) in C:\Project\InventoFlow\INVENTO-FLOW-Task3-\INVENTO-FLOW\Controllers\AuthController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at INVENTO_FLOW.Middleware.RequestLoggingMiddleware.InvokeAsync(HttpContext context) in C:\Project\InventoFlow\INVENTO-FLOW-Task3-\INVENTO-FLOW\Middleware\RequestLoggingMiddleware.cs:line 29
+   at INVENTO_FLOW.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Project\InventoFlow\INVENTO-FLOW-Task3-\INVENTO-FLOW\Middleware\GlobalExceptionMiddleware.cs:line 26
+2026-05-07 14:13:24.898 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Auth/register - 500 null application/json 290.9868ms
+2026-05-07 14:14:46.413 +07:00 [INF] Application is shutting down...
+2026-05-07 14:21:19.793 +07:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-05-07 14:21:19.829 +07:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-05-07 14:21:19.831 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-05-07 14:21:19.832 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-05-07 14:21:19.847 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-05-07 14:21:19.857 +07:00 [INF] Applying migration '20260507072112_SeedRoles'.
+2026-05-07 14:21:19.918 +07:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Name') AND [object_id] = OBJECT_ID(N'[Roles]'))
+    SET IDENTITY_INSERT [Roles] ON;
+INSERT INTO [Roles] ([Id], [Name])
+VALUES (1, N'User'),
+(2, N'Admin');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Name') AND [object_id] = OBJECT_ID(N'[Roles]'))
+    SET IDENTITY_INSERT [Roles] OFF;
+2026-05-07 14:21:19.921 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20260507072112_SeedRoles', N'8.0.0');
+2026-05-07 15:01:31.979 +07:00 [INF] User profile is available. Using 'C:\Users\SaoBien\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-07 15:01:32.123 +07:00 [INF] Now listening on: http://localhost:5105
+2026-05-07 15:01:32.175 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-07 15:01:32.180 +07:00 [INF] Hosting environment: Development
+2026-05-07 15:01:32.184 +07:00 [INF] Content root path: C:\Project\InventoFlow\INVENTO-FLOW-Task3-\INVENTO-FLOW
+2026-05-07 15:01:35.128 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/ - null null
+2026-05-07 15:01:35.180 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-05-07 15:01:35.236 +07:00 [WRN] 🔴 [THẤT BẠI] HTTP GET / -> Phản hồi 404 (Thời gian xử lý: 77ms)
+2026-05-07 15:01:35.245 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/ - 404 0 null 119.0726ms
+2026-05-07 15:01:35.256 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5105/, Response status code: 404
+2026-05-07 15:01:39.208 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/index.html - null null
+2026-05-07 15:01:39.328 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/index.html -> Phản hồi 200 (Thời gian xử lý: 115ms)
+2026-05-07 15:01:39.331 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/index.html - 200 null text/html;charset=utf-8 123.8159ms
+2026-05-07 15:01:39.515 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - null null
+2026-05-07 15:01:39.658 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/v1/swagger.json -> Phản hồi 200 (Thời gian xử lý: 138ms)
+2026-05-07 15:01:39.660 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 145.7396ms
+2026-05-07 15:02:52.624 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Auth/register - application/json 48
+2026-05-07 15:02:52.633 +07:00 [INF] CORS policy execution failed.
+2026-05-07 15:02:52.634 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-05-07 15:02:52.641 +07:00 [INF] Executing endpoint 'INVENTO_FLOW.Controllers.AuthController.Register (INVENTO-FLOW)'
+2026-05-07 15:02:52.672 +07:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(InventoFlow.Application.Features.Auth.Commands.Register.RegisterCommand) on controller INVENTO_FLOW.Controllers.AuthController (INVENTO-FLOW).
+2026-05-07 15:02:52.684 +07:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-05-07 15:02:52.809 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-05-07 15:02:52.852 +07:00 [INF] Executed action INVENTO_FLOW.Controllers.AuthController.Register (INVENTO-FLOW) in 173.5856ms
+2026-05-07 15:02:52.854 +07:00 [INF] Executed endpoint 'INVENTO_FLOW.Controllers.AuthController.Register (INVENTO-FLOW)'
+2026-05-07 15:02:52.856 +07:00 [WRN] 🔴 [THẤT BẠI] HTTP POST /api/Auth/register -> Phản hồi 400 (Thời gian xử lý: 224ms)
+2026-05-07 15:02:52.858 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Auth/register - 400 null application/problem+json; charset=utf-8 233.9611ms
+2026-05-07 15:02:59.380 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Auth/register - application/json 49
+2026-05-07 15:02:59.386 +07:00 [INF] CORS policy execution failed.
+2026-05-07 15:02:59.387 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-05-07 15:02:59.393 +07:00 [INF] Executing endpoint 'INVENTO_FLOW.Controllers.AuthController.Register (INVENTO-FLOW)'
+2026-05-07 15:02:59.394 +07:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(InventoFlow.Application.Features.Auth.Commands.Register.RegisterCommand) on controller INVENTO_FLOW.Controllers.AuthController (INVENTO-FLOW).
+2026-05-07 15:03:00.732 +07:00 [INF] Executed DbCommand (43ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Username] = @__username_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-05-07 15:03:01.589 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Name], [PasswordHash], [RoleId], [Username])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2026-05-07 15:03:01.622 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-07 15:03:01.642 +07:00 [INF] Executed action INVENTO_FLOW.Controllers.AuthController.Register (INVENTO-FLOW) in 2244.9896ms
+2026-05-07 15:03:01.644 +07:00 [INF] Executed endpoint 'INVENTO_FLOW.Controllers.AuthController.Register (INVENTO-FLOW)'
+2026-05-07 15:03:01.648 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP POST /api/Auth/register -> Phản hồi 200 (Thời gian xử lý: 2262ms)
+2026-05-07 15:03:01.657 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Auth/register - 200 null application/json; charset=utf-8 2276.8168ms
+2026-05-07 15:03:53.823 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Auth/login - application/json 49
+2026-05-07 15:03:53.827 +07:00 [INF] CORS policy execution failed.
+2026-05-07 15:03:53.828 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-05-07 15:03:53.832 +07:00 [INF] Executing endpoint 'INVENTO_FLOW.Controllers.AuthController.Login (INVENTO-FLOW)'
+2026-05-07 15:03:53.840 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(InventoFlow.Application.Features.Auth.Commands.Login.LoginCommand) on controller INVENTO_FLOW.Controllers.AuthController (INVENTO-FLOW).
+2026-05-07 15:03:54.008 +07:00 [INF] Executed DbCommand (14ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Name], [u].[PasswordHash], [u].[RoleId], [u].[Username], [r].[Id], [r].[Name]
+FROM [Users] AS [u]
+INNER JOIN [Roles] AS [r] ON [u].[RoleId] = [r].[Id]
+WHERE [u].[Username] = @__username_0
+2026-05-07 15:03:54.269 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-07 15:03:54.274 +07:00 [INF] Executed action INVENTO_FLOW.Controllers.AuthController.Login (INVENTO-FLOW) in 430.7239ms
+2026-05-07 15:03:54.275 +07:00 [INF] Executed endpoint 'INVENTO_FLOW.Controllers.AuthController.Login (INVENTO-FLOW)'
+2026-05-07 15:03:54.277 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP POST /api/Auth/login -> Phản hồi 200 (Thời gian xử lý: 450ms)
+2026-05-07 15:03:54.280 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Auth/login - 200 null application/json; charset=utf-8 457.4084ms
+2026-05-07 15:05:09.446 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Suppliers - application/json 78
+2026-05-07 15:05:09.450 +07:00 [INF] CORS policy execution failed.
+2026-05-07 15:05:09.451 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-05-07 15:05:09.507 +07:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-05-07 15:05:09.510 +07:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2026-05-07 15:05:09.512 +07:00 [WRN] 🔴 [THẤT BẠI] HTTP POST /api/Suppliers -> Phản hồi 403 (Thời gian xử lý: 61ms)
+2026-05-07 15:05:09.514 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Suppliers - 403 0 null 67.8287ms
+2026-05-07 15:05:53.614 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Suppliers - application/json 78
+2026-05-07 15:05:53.618 +07:00 [INF] CORS policy execution failed.
+2026-05-07 15:05:53.619 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-05-07 15:05:53.622 +07:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-05-07 15:05:53.624 +07:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2026-05-07 15:05:53.626 +07:00 [WRN] 🔴 [THẤT BẠI] HTTP POST /api/Suppliers -> Phản hồi 403 (Thời gian xử lý: 7ms)
+2026-05-07 15:05:53.629 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Suppliers - 403 0 null 14.293ms
+2026-05-07 15:05:57.104 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/index.html - null null
+2026-05-07 15:05:57.108 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/index.html -> Phản hồi 200 (Thời gian xử lý: 0ms)
+2026-05-07 15:05:57.111 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/index.html - 200 null text/html;charset=utf-8 6.852ms
+2026-05-07 15:05:57.243 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - null null
+2026-05-07 15:05:57.265 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/v1/swagger.json -> Phản hồi 200 (Thời gian xử lý: 10ms)
+2026-05-07 15:05:57.268 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 25.0249ms
+2026-05-07 15:06:11.001 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Auth/login - application/json 49
+2026-05-07 15:06:11.005 +07:00 [INF] CORS policy execution failed.
+2026-05-07 15:06:11.007 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-05-07 15:06:11.008 +07:00 [INF] Executing endpoint 'INVENTO_FLOW.Controllers.AuthController.Login (INVENTO-FLOW)'
+2026-05-07 15:06:11.010 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(InventoFlow.Application.Features.Auth.Commands.Login.LoginCommand) on controller INVENTO_FLOW.Controllers.AuthController (INVENTO-FLOW).
+2026-05-07 15:06:11.103 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Name], [u].[PasswordHash], [u].[RoleId], [u].[Username], [r].[Id], [r].[Name]
+FROM [Users] AS [u]
+INNER JOIN [Roles] AS [r] ON [u].[RoleId] = [r].[Id]
+WHERE [u].[Username] = @__username_0
+2026-05-07 15:06:11.315 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-07 15:06:11.317 +07:00 [INF] Executed action INVENTO_FLOW.Controllers.AuthController.Login (INVENTO-FLOW) in 303.9214ms
+2026-05-07 15:06:11.319 +07:00 [INF] Executed endpoint 'INVENTO_FLOW.Controllers.AuthController.Login (INVENTO-FLOW)'
+2026-05-07 15:06:11.321 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP POST /api/Auth/login -> Phản hồi 200 (Thời gian xử lý: 315ms)
+2026-05-07 15:06:11.323 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Auth/login - 200 null application/json; charset=utf-8 321.9068ms
+2026-05-07 15:06:50.838 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Suppliers - application/json 82
+2026-05-07 15:06:50.841 +07:00 [INF] CORS policy execution failed.
+2026-05-07 15:06:50.843 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-05-07 15:06:50.845 +07:00 [INF] Executing endpoint 'INVENTO_FLOW.Controllers.SuppliersController.Create (INVENTO-FLOW)'
+2026-05-07 15:06:50.851 +07:00 [INF] Route matched with {action = "Create", controller = "Suppliers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(InventoFlow.Application.DTOs.Supplier.SupplierCreateDto) on controller INVENTO_FLOW.Controllers.SuppliersController (INVENTO-FLOW).
+2026-05-07 15:06:51.005 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Suppliers] ([Address], [Name], [Phone])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2026-05-07 15:06:51.014 +07:00 [INF] Executing CreatedAtActionResult, writing value of type 'InventoFlow.Application.DTOs.Supplier.SupplierResponseDto'.
+2026-05-07 15:06:51.037 +07:00 [INF] Executed action INVENTO_FLOW.Controllers.SuppliersController.Create (INVENTO-FLOW) in 183.4521ms
+2026-05-07 15:06:51.039 +07:00 [INF] Executed endpoint 'INVENTO_FLOW.Controllers.SuppliersController.Create (INVENTO-FLOW)'
+2026-05-07 15:06:51.040 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP POST /api/Suppliers -> Phản hồi 201 (Thời gian xử lý: 198ms)
+2026-05-07 15:06:51.042 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Suppliers - 201 null application/json; charset=utf-8 204.6308ms
+2026-05-07 15:12:39.017 +07:00 [INF] Application is shutting down...
+2026-05-07 15:13:02.353 +07:00 [INF] User profile is available. Using 'C:\Users\SaoBien\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-07 15:13:02.431 +07:00 [INF] Now listening on: http://localhost:5105
+2026-05-07 15:13:02.434 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-07 15:13:02.435 +07:00 [INF] Hosting environment: Development
+2026-05-07 15:13:02.435 +07:00 [INF] Content root path: C:\Project\InventoFlow\INVENTO-FLOW-Task3-\INVENTO-FLOW
+2026-05-07 15:17:56.092 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/index.html - null null
+2026-05-07 15:17:56.262 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/index.html -> Phản hồi 200 (Thời gian xử lý: 142ms)
+2026-05-07 15:17:56.269 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/index.html - 200 null text/html;charset=utf-8 179.1831ms
+2026-05-07 15:17:56.368 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - null null
+2026-05-07 15:17:56.503 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/v1/swagger.json -> Phản hồi 200 (Thời gian xử lý: 131ms)
+2026-05-07 15:17:56.506 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 138.4025ms
+2026-05-07 15:18:07.469 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Auth/login - application/json 48
+2026-05-07 15:18:07.480 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-05-07 15:18:07.484 +07:00 [INF] CORS policy execution failed.
+2026-05-07 15:18:07.485 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-05-07 15:18:07.538 +07:00 [INF] Executing endpoint 'INVENTO_FLOW.Controllers.AuthController.Login (INVENTO-FLOW)'
+2026-05-07 15:18:07.565 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(InventoFlow.Application.Features.Auth.Commands.Login.LoginCommand) on controller INVENTO_FLOW.Controllers.AuthController (INVENTO-FLOW).
+2026-05-07 15:18:07.581 +07:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-05-07 15:18:09.151 +07:00 [INF] Executed DbCommand (49ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Name], [u].[PasswordHash], [u].[RoleId], [u].[Username], [r].[Id], [r].[Name]
+FROM [Users] AS [u]
+INNER JOIN [Roles] AS [r] ON [u].[RoleId] = [r].[Id]
+WHERE [u].[Username] = @__username_0
+2026-05-07 15:18:10.001 +07:00 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-07 15:18:10.029 +07:00 [INF] Executed action INVENTO_FLOW.Controllers.AuthController.Login (INVENTO-FLOW) in 2457.7996ms
+2026-05-07 15:18:10.033 +07:00 [INF] Executed endpoint 'INVENTO_FLOW.Controllers.AuthController.Login (INVENTO-FLOW)'
+2026-05-07 15:18:10.038 +07:00 [WRN] 🔴 [THẤT BẠI] HTTP POST /api/Auth/login -> Phản hồi 401 (Thời gian xử lý: 2562ms)
+2026-05-07 15:18:10.048 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Auth/login - 401 null application/json; charset=utf-8 2578.7133ms
+2026-05-07 15:18:11.432 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Auth/login - application/json 49
+2026-05-07 15:18:11.438 +07:00 [INF] CORS policy execution failed.
+2026-05-07 15:18:11.439 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-05-07 15:18:11.444 +07:00 [INF] Executing endpoint 'INVENTO_FLOW.Controllers.AuthController.Login (INVENTO-FLOW)'
+2026-05-07 15:18:11.446 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(InventoFlow.Application.Features.Auth.Commands.Login.LoginCommand) on controller INVENTO_FLOW.Controllers.AuthController (INVENTO-FLOW).
+2026-05-07 15:18:11.480 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Name], [u].[PasswordHash], [u].[RoleId], [u].[Username], [r].[Id], [r].[Name]
+FROM [Users] AS [u]
+INNER JOIN [Roles] AS [r] ON [u].[RoleId] = [r].[Id]
+WHERE [u].[Username] = @__username_0
+2026-05-07 15:18:11.940 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-07 15:18:11.944 +07:00 [INF] Executed action INVENTO_FLOW.Controllers.AuthController.Login (INVENTO-FLOW) in 495.4432ms
+2026-05-07 15:18:11.946 +07:00 [INF] Executed endpoint 'INVENTO_FLOW.Controllers.AuthController.Login (INVENTO-FLOW)'
+2026-05-07 15:18:11.948 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP POST /api/Auth/login -> Phản hồi 200 (Thời gian xử lý: 510ms)
+2026-05-07 15:18:11.951 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Auth/login - 200 null application/json; charset=utf-8 519.7634ms
+2026-05-07 15:19:10.156 +07:00 [INF] Application is shutting down...
+2026-05-07 15:19:19.597 +07:00 [INF] User profile is available. Using 'C:\Users\SaoBien\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-07 15:19:19.677 +07:00 [INF] Now listening on: http://localhost:5105
+2026-05-07 15:19:19.679 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-07 15:19:19.680 +07:00 [INF] Hosting environment: Development
+2026-05-07 15:19:19.681 +07:00 [INF] Content root path: C:\Project\InventoFlow\INVENTO-FLOW-Task3-\INVENTO-FLOW
+2026-05-07 15:19:21.390 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/ - null null
+2026-05-07 15:19:21.422 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-05-07 15:19:21.455 +07:00 [WRN] 🔴 [THẤT BẠI] HTTP GET / -> Phản hồi 404 (Thời gian xử lý: 46ms)
+2026-05-07 15:19:21.463 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/ - 404 0 null 74.3503ms
+2026-05-07 15:19:21.471 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5105/, Response status code: 404
+2026-05-07 15:19:24.132 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/index.html - null null
+2026-05-07 15:19:24.247 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/index.html -> Phản hồi 200 (Thời gian xử lý: 109ms)
+2026-05-07 15:19:24.250 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/index.html - 200 null text/html;charset=utf-8 118.409ms
+2026-05-07 15:19:24.373 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - null null
+2026-05-07 15:19:24.515 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/v1/swagger.json -> Phản hồi 200 (Thời gian xử lý: 138ms)
+2026-05-07 15:19:24.518 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 145.2208ms
+2026-05-07 15:24:03.260 +07:00 [INF] Application is shutting down...
+2026-05-07 15:24:17.606 +07:00 [INF] User profile is available. Using 'C:\Users\SaoBien\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-07 15:24:17.695 +07:00 [INF] Now listening on: http://localhost:5105
+2026-05-07 15:24:17.698 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-07 15:24:17.699 +07:00 [INF] Hosting environment: Development
+2026-05-07 15:24:17.700 +07:00 [INF] Content root path: C:\Project\InventoFlow\INVENTO-FLOW-Task3-\INVENTO-FLOW
+2026-05-07 15:24:36.861 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/ - null null
+2026-05-07 15:24:36.915 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-05-07 15:24:36.967 +07:00 [WRN] 🔴 [THẤT BẠI] HTTP GET / -> Phản hồi 404 (Thời gian xử lý: 74ms)
+2026-05-07 15:24:36.976 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/ - 404 0 null 117.088ms
+2026-05-07 15:24:36.984 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5105/, Response status code: 404
+2026-05-07 15:24:39.772 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/index.html - null null
+2026-05-07 15:24:39.883 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/index.html -> Phản hồi 200 (Thời gian xử lý: 106ms)
+2026-05-07 15:24:39.886 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/index.html - 200 null text/html;charset=utf-8 114.3745ms
+2026-05-07 15:24:39.991 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - null null
+2026-05-07 15:24:40.107 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/v1/swagger.json -> Phản hồi 200 (Thời gian xử lý: 112ms)
+2026-05-07 15:24:40.110 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 118.9335ms
+2026-05-07 15:24:54.485 +07:00 [INF] Application is shutting down...
+2026-05-07 15:25:43.220 +07:00 [INF] User profile is available. Using 'C:\Users\SaoBien\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-07 15:25:43.313 +07:00 [INF] Now listening on: http://localhost:5105
+2026-05-07 15:25:43.316 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-07 15:25:43.317 +07:00 [INF] Hosting environment: Development
+2026-05-07 15:25:43.318 +07:00 [INF] Content root path: C:\Project\InventoFlow\INVENTO-FLOW-Task3-\INVENTO-FLOW
+2026-05-07 15:26:03.072 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/ - null null
+2026-05-07 15:26:03.130 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-05-07 15:26:03.190 +07:00 [WRN] 🔴 [THẤT BẠI] HTTP GET / -> Phản hồi 404 (Thời gian xử lý: 84ms)
+2026-05-07 15:26:03.200 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/ - 404 0 null 129.6591ms
+2026-05-07 15:26:03.207 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5105/, Response status code: 404
+2026-05-07 15:26:05.998 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/index.html - null null
+2026-05-07 15:26:06.130 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/index.html -> Phản hồi 200 (Thời gian xử lý: 127ms)
+2026-05-07 15:26:06.134 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/index.html - 200 null text/html;charset=utf-8 135.7783ms
+2026-05-07 15:26:06.253 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - null null
+2026-05-07 15:26:06.387 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/v1/swagger.json -> Phản hồi 200 (Thời gian xử lý: 129ms)
+2026-05-07 15:26:06.391 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 137.359ms
+2026-05-07 15:28:53.220 +07:00 [INF] Application is shutting down...
+2026-05-07 15:31:30.848 +07:00 [INF] User profile is available. Using 'C:\Users\SaoBien\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-07 15:31:30.929 +07:00 [INF] Now listening on: http://localhost:5105
+2026-05-07 15:31:30.932 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-07 15:31:30.933 +07:00 [INF] Hosting environment: Development
+2026-05-07 15:31:30.933 +07:00 [INF] Content root path: C:\Project\InventoFlow\INVENTO-FLOW-Task3-\INVENTO-FLOW
+2026-05-07 15:31:32.990 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/ - null null
+2026-05-07 15:31:33.048 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-05-07 15:31:33.103 +07:00 [WRN] 🔴 [THẤT BẠI] HTTP GET / -> Phản hồi 404 (Thời gian xử lý: 79ms)
+2026-05-07 15:31:33.114 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/ - 404 0 null 126.2288ms
+2026-05-07 15:31:33.122 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5105/, Response status code: 404
+2026-05-07 15:31:36.120 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/index.html - null null
+2026-05-07 15:31:36.238 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/index.html -> Phản hồi 200 (Thời gian xử lý: 113ms)
+2026-05-07 15:31:36.241 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/index.html - 200 null text/html;charset=utf-8 120.5024ms
+2026-05-07 15:31:36.357 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - null null
+2026-05-07 15:31:36.497 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP GET /swagger/v1/swagger.json -> Phản hồi 200 (Thời gian xử lý: 136ms)
+2026-05-07 15:31:36.501 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 143.4841ms
+2026-05-07 15:31:51.572 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Auth/login - application/json 49
+2026-05-07 15:31:51.579 +07:00 [INF] CORS policy execution failed.
+2026-05-07 15:31:51.580 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-05-07 15:31:51.587 +07:00 [INF] Executing endpoint 'INVENTO_FLOW.Controllers.AuthController.Login (INVENTO-FLOW)'
+2026-05-07 15:31:51.617 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(InventoFlow.Application.Features.Auth.Commands.Login.LoginCommand) on controller INVENTO_FLOW.Controllers.AuthController (INVENTO-FLOW).
+2026-05-07 15:31:51.633 +07:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-05-07 15:31:53.176 +07:00 [INF] Executed DbCommand (42ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Name], [u].[PasswordHash], [u].[RoleId], [u].[Username], [r].[Id], [r].[Name]
+FROM [Users] AS [u]
+INNER JOIN [Roles] AS [r] ON [u].[RoleId] = [r].[Id]
+WHERE [u].[Username] = @__username_0
+2026-05-07 15:31:54.049 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-07 15:31:54.078 +07:00 [INF] Executed action INVENTO_FLOW.Controllers.AuthController.Login (INVENTO-FLOW) in 2453.6507ms
+2026-05-07 15:31:54.080 +07:00 [INF] Executed endpoint 'INVENTO_FLOW.Controllers.AuthController.Login (INVENTO-FLOW)'
+2026-05-07 15:31:54.084 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP POST /api/Auth/login -> Phản hồi 200 (Thời gian xử lý: 2505ms)
+2026-05-07 15:31:54.092 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Auth/login - 200 null application/json; charset=utf-8 2520.1878ms
+2026-05-07 15:39:15.063 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Categories - application/json 38
+2026-05-07 15:39:15.068 +07:00 [INF] CORS policy execution failed.
+2026-05-07 15:39:15.070 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-05-07 15:39:15.080 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-05-07 15:39:15.085 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-05-07 15:39:15.087 +07:00 [WRN] 🔴 [THẤT BẠI] HTTP POST /api/Categories -> Phản hồi 401 (Thời gian xử lý: 19ms)
+2026-05-07 15:39:15.091 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Categories - 401 0 null 27.6059ms
+2026-05-07 15:45:17.810 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/api/Categories - null null
+2026-05-07 15:45:17.816 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-05-07 15:45:17.818 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-05-07 15:45:17.820 +07:00 [WRN] 🔴 [THẤT BẠI] HTTP GET /api/Categories -> Phản hồi 401 (Thời gian xử lý: 6ms)
+2026-05-07 15:45:17.823 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/api/Categories - 401 0 null 12.9426ms
+2026-05-07 15:45:57.537 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Categories - application/json 38
+2026-05-07 15:45:57.541 +07:00 [INF] CORS policy execution failed.
+2026-05-07 15:45:57.542 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-05-07 15:45:57.544 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-05-07 15:45:57.546 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-05-07 15:45:57.547 +07:00 [WRN] 🔴 [THẤT BẠI] HTTP POST /api/Categories -> Phản hồi 401 (Thời gian xử lý: 6ms)
+2026-05-07 15:45:57.550 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Categories - 401 0 null 13.5079ms
+2026-05-07 15:46:26.863 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Categories - application/json 38
+2026-05-07 15:46:26.867 +07:00 [INF] CORS policy execution failed.
+2026-05-07 15:46:26.869 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-05-07 15:46:26.917 +07:00 [INF] Executing endpoint 'INVENTO_FLOW.Controllers.CategoriesController.Create (INVENTO-FLOW)'
+2026-05-07 15:46:26.924 +07:00 [INF] Route matched with {action = "Create", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(InventoFlow.Application.DTOs.Category.CategoryCreateDto) on controller INVENTO_FLOW.Controllers.CategoriesController (INVENTO-FLOW).
+2026-05-07 15:46:27.223 +07:00 [INF] Executed DbCommand (11ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Categories] ([Name], [ParentId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2026-05-07 15:46:27.261 +07:00 [INF] Executing CreatedAtActionResult, writing value of type 'InventoFlow.Application.DTOs.Category.CategoryResponseDto'.
+2026-05-07 15:46:27.282 +07:00 [INF] Executed action INVENTO_FLOW.Controllers.CategoriesController.Create (INVENTO-FLOW) in 355.0993ms
+2026-05-07 15:46:27.284 +07:00 [INF] Executed endpoint 'INVENTO_FLOW.Controllers.CategoriesController.Create (INVENTO-FLOW)'
+2026-05-07 15:46:27.286 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP POST /api/Categories -> Phản hồi 201 (Thời gian xử lý: 418ms)
+2026-05-07 15:46:27.290 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Categories - 201 null application/json; charset=utf-8 426.7272ms
+2026-05-07 15:47:25.878 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Categories - application/json 41
+2026-05-07 15:47:25.883 +07:00 [INF] CORS policy execution failed.
+2026-05-07 15:47:25.884 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-05-07 15:47:25.887 +07:00 [INF] Executing endpoint 'INVENTO_FLOW.Controllers.CategoriesController.Create (INVENTO-FLOW)'
+2026-05-07 15:47:25.889 +07:00 [INF] Route matched with {action = "Create", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(InventoFlow.Application.DTOs.Category.CategoryCreateDto) on controller INVENTO_FLOW.Controllers.CategoriesController (INVENTO-FLOW).
+2026-05-07 15:47:25.981 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Categories] ([Name], [ParentId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2026-05-07 15:47:25.985 +07:00 [INF] Executing CreatedAtActionResult, writing value of type 'InventoFlow.Application.DTOs.Category.CategoryResponseDto'.
+2026-05-07 15:47:25.988 +07:00 [INF] Executed action INVENTO_FLOW.Controllers.CategoriesController.Create (INVENTO-FLOW) in 96.5895ms
+2026-05-07 15:47:25.990 +07:00 [INF] Executed endpoint 'INVENTO_FLOW.Controllers.CategoriesController.Create (INVENTO-FLOW)'
+2026-05-07 15:47:25.992 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP POST /api/Categories -> Phản hồi 201 (Thời gian xử lý: 109ms)
+2026-05-07 15:47:25.995 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Categories - 201 null application/json; charset=utf-8 116.2366ms
+2026-05-07 15:49:25.352 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Products - application/json 123
+2026-05-07 15:49:25.357 +07:00 [INF] CORS policy execution failed.
+2026-05-07 15:49:25.358 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-05-07 15:49:25.360 +07:00 [INF] Executing endpoint 'INVENTO_FLOW.Controllers.ProductsController.Create (INVENTO-FLOW)'
+2026-05-07 15:49:25.367 +07:00 [INF] Route matched with {action = "Create", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(InventoFlow.Application.DTOs.Product.ProductCreateDto) on controller INVENTO_FLOW.Controllers.ProductsController (INVENTO-FLOW).
+2026-05-07 15:49:25.474 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p3='?' (Size = 450), @p4='?' (DbType = Int32), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([CategoryId], [Name], [Price], [SKU], [StockQuantity], [SupplierId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2026-05-07 15:49:25.485 +07:00 [INF] Executing CreatedAtActionResult, writing value of type 'InventoFlow.Application.DTOs.Product.ProductResponseDto'.
+2026-05-07 15:49:25.495 +07:00 [INF] Executed action INVENTO_FLOW.Controllers.ProductsController.Create (INVENTO-FLOW) in 125.4226ms
+2026-05-07 15:49:25.497 +07:00 [INF] Executed endpoint 'INVENTO_FLOW.Controllers.ProductsController.Create (INVENTO-FLOW)'
+2026-05-07 15:49:25.499 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP POST /api/Products -> Phản hồi 201 (Thời gian xử lý: 142ms)
+2026-05-07 15:49:25.502 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Products - 201 null application/json; charset=utf-8 150.1645ms
+2026-05-07 15:57:06.125 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Orders - application/json 90
+2026-05-07 15:57:06.129 +07:00 [INF] CORS policy execution failed.
+2026-05-07 15:57:06.130 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-05-07 15:57:06.133 +07:00 [INF] Executing endpoint 'INVENTO_FLOW.Controllers.OrdersController.Create (INVENTO-FLOW)'
+2026-05-07 15:57:06.139 +07:00 [INF] Route matched with {action = "Create", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(InventoFlow.Application.Features.Orders.Commands.CreateOrder.CreateOrderCommand) on controller INVENTO_FLOW.Controllers.OrdersController (INVENTO-FLOW).
+2026-05-07 15:57:06.248 +07:00 [INF] Executed DbCommand (12ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[Name], [p].[Price], [p].[SKU], [p].[StockQuantity], [p].[SupplierId], [c].[Id], [c].[Name], [c].[ParentId], [s].[Id], [s].[Address], [s].[Name], [s].[Phone]
+FROM [Products] AS [p]
+LEFT JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+LEFT JOIN [Suppliers] AS [s] ON [p].[SupplierId] = [s].[Id]
+WHERE [p].[Id] = @__id_0
+2026-05-07 15:57:06.357 +07:00 [INF] Executed DbCommand (10ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (DbType = Int32), @p9='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p6='?' (Size = 450), @p7='?' (DbType = Int32), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([OrderDate], [TotalAmount], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+UPDATE [Products] SET [CategoryId] = @p3, [Name] = @p4, [Price] = @p5, [SKU] = @p6, [StockQuantity] = @p7, [SupplierId] = @p8
+OUTPUT 1
+WHERE [Id] = @p9;
+2026-05-07 15:57:06.388 +07:00 [ERR] An exception occurred in the database while saving changes for context type 'InventoFlow.Infrastructure.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Orders_Users_UserId". The conflict occurred in database "InventoFlowDb", table "dbo.Users", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:8eba7b32-c8c1-4462-be7d-7353145f2975
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Orders_Users_UserId". The conflict occurred in database "InventoFlowDb", table "dbo.Users", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:8eba7b32-c8c1-4462-be7d-7353145f2975
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2026-05-07 15:57:06.403 +07:00 [INF] Executed action INVENTO_FLOW.Controllers.OrdersController.Create (INVENTO-FLOW) in 260.7469ms
+2026-05-07 15:57:06.405 +07:00 [INF] Executed endpoint 'INVENTO_FLOW.Controllers.OrdersController.Create (INVENTO-FLOW)'
+2026-05-07 15:57:06.408 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP POST /api/Orders -> Phản hồi 200 (Thời gian xử lý: 279ms)
+2026-05-07 15:57:06.411 +07:00 [ERR] Lỗi hệ thống bất định: An error occurred while saving the entity changes. See the inner exception for details.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Orders_Users_UserId". The conflict occurred in database "InventoFlowDb", table "dbo.Users", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:8eba7b32-c8c1-4462-be7d-7353145f2975
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at InventoFlow.Infrastructure.Repositories.UnitOfWork.CompleteAsync() in C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Infrastructure\Repositories\UnitOfWork.cs:line 31
+   at InventoFlow.Application.Features.Orders.Commands.CreateOrder.CreateOrderHandler.Handle(CreateOrderCommand request, CancellationToken cancellationToken) in C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Application\Features\Orders\Commands\CreateOrder\CreateOrderHandler.cs:line 60
+   at InventoFlow.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Project\InventoFlow\INVENTO-FLOW-Task3-\InventoFlow.Application\Common\Behaviors.cs:line 39
+   at INVENTO_FLOW.Controllers.OrdersController.Create(CreateOrderCommand command) in C:\Project\InventoFlow\INVENTO-FLOW-Task3-\INVENTO-FLOW\Controllers\OrdersController.cs:line 38
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at INVENTO_FLOW.Middleware.RequestLoggingMiddleware.InvokeAsync(HttpContext context) in C:\Project\InventoFlow\INVENTO-FLOW-Task3-\INVENTO-FLOW\Middleware\RequestLoggingMiddleware.cs:line 29
+   at INVENTO_FLOW.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Project\InventoFlow\INVENTO-FLOW-Task3-\INVENTO-FLOW\Middleware\GlobalExceptionMiddleware.cs:line 26
+2026-05-07 15:57:06.473 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Orders - 500 null application/json 348.6842ms
+2026-05-07 15:58:09.965 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/api/Orders - application/json 90
+2026-05-07 15:58:09.969 +07:00 [INF] CORS policy execution failed.
+2026-05-07 15:58:09.970 +07:00 [INF] Request origin http://localhost:5105 does not have permission to access the resource.
+2026-05-07 15:58:09.972 +07:00 [INF] Executing endpoint 'INVENTO_FLOW.Controllers.OrdersController.Create (INVENTO-FLOW)'
+2026-05-07 15:58:09.973 +07:00 [INF] Route matched with {action = "Create", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(InventoFlow.Application.Features.Orders.Commands.CreateOrder.CreateOrderCommand) on controller INVENTO_FLOW.Controllers.OrdersController (INVENTO-FLOW).
+2026-05-07 15:58:09.988 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[Name], [p].[Price], [p].[SKU], [p].[StockQuantity], [p].[SupplierId], [c].[Id], [c].[Name], [c].[ParentId], [s].[Id], [s].[Address], [s].[Name], [s].[Phone]
+FROM [Products] AS [p]
+LEFT JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+LEFT JOIN [Suppliers] AS [s] ON [p].[SupplierId] = [s].[Id]
+WHERE [p].[Id] = @__id_0
+2026-05-07 15:58:10.002 +07:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (DbType = Int32), @p9='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p6='?' (Size = 450), @p7='?' (DbType = Int32), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([OrderDate], [TotalAmount], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+UPDATE [Products] SET [CategoryId] = @p3, [Name] = @p4, [Price] = @p5, [SKU] = @p6, [StockQuantity] = @p7, [SupplierId] = @p8
+OUTPUT 1
+WHERE [Id] = @p9;
+2026-05-07 15:58:10.018 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@p10='?' (DbType = Int32), @p11='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p12='?' (DbType = Int32), @p13='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [OrderItems] ([OrderId], [PriceAtPurchase], [ProductId], [Quantity])
+OUTPUT INSERTED.[Id]
+VALUES (@p10, @p11, @p12, @p13);
+2026-05-07 15:58:10.042 +07:00 [INF] Executing CreatedAtActionResult, writing value of type 'InventoFlow.Application.DTOs.Order.OrderResponseDto'.
+2026-05-07 15:58:10.055 +07:00 [INF] Executed action INVENTO_FLOW.Controllers.OrdersController.Create (INVENTO-FLOW) in 78.6562ms
+2026-05-07 15:58:10.057 +07:00 [INF] Executed endpoint 'INVENTO_FLOW.Controllers.OrdersController.Create (INVENTO-FLOW)'
+2026-05-07 15:58:10.059 +07:00 [INF] 🟢 [THÀNH CÔNG] HTTP POST /api/Orders -> Phản hồi 201 (Thời gian xử lý: 90ms)
+2026-05-07 15:58:10.062 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/api/Orders - 201 null application/json; charset=utf-8 97.2673ms
+2026-05-07 16:11:36.386 +07:00 [INF] Application is shutting down...

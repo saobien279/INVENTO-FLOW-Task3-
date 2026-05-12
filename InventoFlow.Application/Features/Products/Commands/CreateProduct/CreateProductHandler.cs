@@ -19,14 +19,8 @@ namespace InventoFlow.Application.Features.Products.Commands.CreateProduct
 
         public async Task<ProductResponseDto> Handle(CreateProductCommand request, CancellationToken cancellationToken)
         {
-            // 1. Tạo entity Product từ dữ liệu Command
-            var product = new Product
-            {
-                Name = request.Name,
-                SKU = request.SKU,
-                Price = request.Price,
-                StockQuantity = request.StockQuantity
-            };
+            // 1. Tạo entity Product từ dữ liệu Command thông qua AutoMapper
+            var product = _mapper.Map<Product>(request.Dto);
 
             // 2. Thêm vào Change Tracker của EF Core
             await _unitOfWork.Products.AddAsync(product);
