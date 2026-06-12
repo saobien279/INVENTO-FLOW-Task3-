@@ -1,0 +1,61 @@
+# Visual Studio / .NET Core gitignore
+# Reusable template for C# / .NET projects
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Re]leases/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bbin/
+[Bb]in/
+[Oo]bj/
+bin/
+obj/
+
+# Visual Studio 2015/2017/2019/2022 cache directory
+.vs/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userbgattributes
+*.usertasks
+*.sln.docstates
+
+# VS Code workspace settings
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Test results
+[Tt]est[Rr]esults/
+[Bb]uild[Ll]og.*
+
+# Logs
+[Ll]og/
+[Ll]ogs/
+*.log
+log-*.txt
+INVENTO-FLOW/Logs/
+
+# Package files
+*.nupkg
+# NuGet Packages
+*.nuget.props
+*.nuget.targets
+
+# Rider / IntelliJ
+.idea/
+*.sln.iml
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini

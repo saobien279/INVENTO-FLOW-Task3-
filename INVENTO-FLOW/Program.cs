@@ -164,6 +164,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseDefaultFiles();
+app.UseStaticFiles();
+
 // 6. Cắm Trạm Gác Số 6 - Máy Ép Nén Response Compression
 // Đặt nó ở cửa ngõ đi ra để mọi dữ liệu kết quả xuất ra (JSON) đều bị ép mỏng lại
 app.UseResponseCompression();

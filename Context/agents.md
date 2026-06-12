@@ -412,3 +412,18 @@ builder.Services.AddValidatorsFromAssembly(typeof(ApplicationAssemblyReference).
 builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
 ```
 > ✅ **Lưu ý**: Chỉ cần tạo file định nghĩa Rule, hệ thống sẽ tự động "nhặt" và dùng nó để bảo vệ API mà không cần sửa code đăng ký.
+
+---
+
+## 14. Giao diện Người dùng (Frontend UI)
+
+Dự án tích hợp giao diện người dùng Single Page Application (SPA) trực quan, hiện đại được lưu trữ trực tiếp trên Server Kestrel để phục vụ tại cổng mặc định.
+
+### Cấu trúc Frontend (`INVENTO-FLOW/wwwroot/`)
+- **[index.html](file:///c:/Project/DuAnCuoiKy/INVENTO-FLOW-Task3-/INVENTO-FLOW/wwwroot/index.html)**: Trang SPA duy nhất chứa cấu trúc Layout, Dashboard, quản lý Sản phẩm, Hóa đơn, Danh mục, Nhà cung cấp.
+- **[css/style.css](file:///c:/Project/DuAnCuoiKy/INVENTO-FLOW-Task3-/INVENTO-FLOW/wwwroot/css/style.css)**: Thiết kế giao diện phong cách Dark Theme/Light Theme cao cấp với hiệu ứng Glassmorphism và tối ưu hiển thị responsive.
+- **[js/app.js](file:///c:/Project/DuAnCuoiKy/INVENTO-FLOW-Task3-/INVENTO-FLOW/wwwroot/js/app.js)**: Điều phối trạng thái UI, xử lý gọi REST API, giải mã và lưu trữ JWT Token trong `localStorage`, phân quyền các chức năng Admin/User.
+
+### Cấu hình Tích hợp trên WebApi
+- **Kích hoạt Static Files**: `Program.cs` sử dụng `app.UseDefaultFiles()` và `app.UseStaticFiles()` trước CORS, RateLimiter và Routing để phục vụ file tĩnh tại root `http://localhost:5105/`.
+- **Chạy trực tiếp**: `launchSettings.json` cấu hình `"launchUrl": ""` để tự động khởi chạy trình duyệt hiển thị giao diện này thay vì mở trang tài liệu Swagger.
