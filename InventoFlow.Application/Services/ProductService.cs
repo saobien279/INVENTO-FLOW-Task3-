@@ -20,14 +20,13 @@ namespace InventoFlow.Application.Services
 
         public async Task<ProductResponseDto> CreateProductAsync(ProductCreateDto dto)
         {
-            // Dùng AutoMapper để chuyển DTO thành Model Product
+            // Map DTO to Product Entity
             var product = _mapper.Map<Product>(dto);
 
-           // Gọi qua UoW
             await _unitOfWork.Products.AddAsync(product);
-            // Chốt hạ bằng UoW
             await _unitOfWork.CompleteAsync();
-            // Chuyển Model vừa tạo thành Response DTO để trả về
+
+            // Map Entity to Response DTO
             return _mapper.Map<ProductResponseDto>(product);
         }
 
